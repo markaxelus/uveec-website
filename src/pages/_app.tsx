@@ -1,4 +1,3 @@
-import Head from "next/head";
 import "../../styles/globals.css";
 import AwardsContainer from "../common/awards/container/AwardsContainer";
 import Footer from "../common/components/footer/Footer";
@@ -9,14 +8,14 @@ import TeamContainer from "../common/team/container/TeamContainer";
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <MainContainer />
       <GoalContainer />
       <TeamContainer />
       <AwardsContainer />
       <Footer />
-    </>
+    </div>
   );
 }
 
