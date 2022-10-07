@@ -10,9 +10,6 @@ import TeamContainer from "../common/team/container/TeamContainer";
 function App() {
   return (
     <>
-      <Head>
-        <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
-      </Head>
       <Header />
       <MainContainer />
       <GoalContainer />
