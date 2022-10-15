@@ -1,6 +1,6 @@
 import React, { PropsWithChildren } from "react";
-import { Header } from "../components/molecules/header";
-import { Footer } from "../components/molecules/footer";
+import { Footer } from "../components/organisms/footer";
+import { Header } from "../components/organisms/header";
 
 interface BaseLayoutProps {}
 
