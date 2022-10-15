@@ -1,16 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
-      height: {
-        Header: "80px",
-        Main: "592px",
-        SponsorSlideshow: "144px",
-        GoalContainer: "460px",
-        TeamContainer: "350px",
-        AwardsContainer: "510px",
-        Footer: "310px",
+      colors: {
+        royalBlue: "#17335B",
+        lightBlue: "#3FA3DA",
+        orange: "#FCB814",
+        red: "E92B2C",
       },
     },
   },
