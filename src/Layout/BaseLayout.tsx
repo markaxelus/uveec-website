@@ -1,10 +1,11 @@
 import React, { PropsWithChildren } from "react";
-import { Footer } from "../components/organisms/footer";
-import { Header } from "../components/organisms/header";
+import { Footer, Header } from "../components/organisms";
 
 interface BaseLayoutProps {}
 
-function BaseLayout({ children }: PropsWithChildren<BaseLayoutProps>) {
+export const BaseLayout = ({
+  children,
+}: PropsWithChildren<BaseLayoutProps>) => {
   return (
     <>
       <Header />
@@ -12,6 +13,4 @@ function BaseLayout({ children }: PropsWithChildren<BaseLayoutProps>) {
       <Footer />
     </>
   );
-}
-
-export default BaseLayout;
+};
