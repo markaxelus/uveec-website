@@ -1,10 +1,10 @@
 export const CompanyName =
   "University of Victoria Environmental Engineering Club";
 
-const short_lorem =
+export const short_lorem =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum posuere nibh id vestibulum.";
 
-const medium_lorem =
+export const medium_lorem =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus aliquet accumsan. Sed ac tellus vel purus condimentum vestibulum. Nunc sodales leo eget diam consectetur, vel eleifend turpis imperdiet. Cras mattis fringilla euismod.";
 
 export const OurGoalsParagraphs = [
