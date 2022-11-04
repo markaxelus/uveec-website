@@ -7,10 +7,10 @@ export const BaseLayout = ({
   children,
 }: PropsWithChildren<BaseLayoutProps>) => {
   return (
-    <>
+    <div>
       <Header />
       {children}
       <Footer />
-    </>
+    </div>
   );
 };
