@@ -19,7 +19,7 @@ export const NavLink = ({ link, name }: NavLinkProps) => {
     <a
       href={link}
       className={classNames(
-        isHighlighted ? "text-orange" : "text-offwhite",
+        isHighlighted ? "text-orange" : "text-white",
         "text-lg"
       )}
     >
