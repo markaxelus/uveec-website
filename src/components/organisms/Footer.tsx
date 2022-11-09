@@ -4,7 +4,7 @@ import { CompanyName } from "../../constants";
 export const Footer = () => {
   return (
     <div>
-      <div className="flex flex-row justify-center items-center space-x-1 h-48 w-screen bg-royalBlue ">
+      <div className="flex flex-row justify-center items-center space-x-1 h-48 w-full bg-royalBlue ">
         <a
           target="_blank"
           rel="noopener"
@@ -58,7 +58,7 @@ export const Footer = () => {
           </svg>
         </a>
       </div>
-      <div className=" h-20 w-screen p-4 bg-[#102543]">
+      <div className=" h-20 w-full p-4 bg-[#102543]">
         <p className="text-center text-white">
           Copyright © 2022 {CompanyName}.
         </p>
