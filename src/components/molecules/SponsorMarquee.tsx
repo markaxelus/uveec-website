@@ -1,21 +1,24 @@
-import React from "react";
 import Marquee from "react-fast-marquee";
-import { SponsorLogo } from "../atoms/SponsorLogo";
+import { Logo } from "../atoms";
 
 export const SponsorMarquee = () => {
   return (
-    <Marquee direction="right" speed={50} gradient={false} className="p-4">
-      <SponsorLogo src="logo-bluerobotics.png" />
-      <SponsorLogo src="logo-altium.png" />
-      <SponsorLogo src="logo-pcbway.png" />
-      <SponsorLogo src="logo-rainhouse.png" />
-      <SponsorLogo src="logo-digikey.png" />
-      <SponsorLogo src="logo-maximumprototyping.png" />
-      <SponsorLogo src="logo-rapidharness.png" />
-      <SponsorLogo src="logo-fibertek.png" />
-      <SponsorLogo src="logo-altech.png" />
-      <SponsorLogo src="logo-teck.png" />
-      <SponsorLogo src="logo-uvic.png" />
+    <Marquee direction="right" speed={50} gradient={false} className="py-5">
+      <div className="flex flex-row items-center justify-evenly space-x-5 mr-5">
+        <Logo src="bluerobotics.png" className="h-14 w-56" />
+        <Logo src="altium.png" className="h-12 w-48" />
+        <Logo src="pcbway.png" className="h-12 w-48" />
+        <Logo src="rainhouse.png" className="h-14 w-52" />
+        <Logo src="digikey.png" className="h-16 w-28" />
+        <Logo src="maximumprototyping.png" className="h-14 w-52" />
+        <Logo src="rapidharness.png" className="h-14 w-52" />
+        <Logo src="fibertek.png" className="h-14 w-52" />
+        <Logo src="altech.png" className="h-14 w-52" />
+        <Logo src="teck.png" className="h-12 w-36" />
+        <Logo src="maximumprototyping.png" className="h-14 w-52" />
+        <Logo src="uvic.png" className="h-12 w-40" />
+        <Logo src="ess.png" className="h-20 w-20" />
+      </div>
     </Marquee>
   );
 };

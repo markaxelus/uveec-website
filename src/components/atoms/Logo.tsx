@@ -5,11 +5,12 @@ import classNames from "classnames";
 type Size = "sm" | "lg" | "xl";
 
 interface BaseLogoProps {
+  src: string;
   size?: Size;
   className?: string;
 }
 
-export const CompanyLogo = ({ size = "sm", className }: BaseLogoProps) => {
+export const Logo = ({ src, size = "sm", className }: BaseLogoProps) => {
   let sizeStyle = "w-16 h-16";
 
   if (size === "lg") sizeStyle = "w-24 h-24";
@@ -17,7 +18,7 @@ export const CompanyLogo = ({ size = "sm", className }: BaseLogoProps) => {
 
   return (
     <div className={classNames(className, sizeStyle, "relative")}>
-      <Image layout="fill" src="/images/company-logo.png" />
+      <Image layout="fill" src={`/images/${src}`} />
     </div>
   );
 };
