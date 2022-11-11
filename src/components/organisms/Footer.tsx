@@ -7,9 +7,7 @@ export const Footer = () => {
     <div>
       <div className="flex flex-col md:flex-row justify-evenly items-center md:items-baseline h-[700px] md:h-72 w-full space-y-7 md:space-y-16 bg-royalBlue ">
         <div className="mb-20">
-          <Link href="/">
-            <Logo src="uveec3.png" className="h-16 w-36 top-16 " />
-          </Link>
+          <Logo src="uveec3.png" className="h-16 w-36 top-16" />
         </div>
         <div className="space-y-2 text-center md:text-start">
           <p className="text-white font-bold mb-4">Product</p>
