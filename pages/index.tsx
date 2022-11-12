@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import type { NextPage } from "next";
 import { HeroBanner, SponsorMarquee } from "../src/components/molecules";
@@ -41,16 +42,18 @@ const Home: NextPage = () => {
                 <Image layout="fill" src="/images/united.png" />
               </div>
               <h2 className="mt-8 font-semibold text-sky-500">Teamwork</h2>
-              <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 ">
+              <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
                 {short_lorem}
               </p>
               <p className="mt-4 max-w-3xl text-slate-400 space-y-6 ">
                 {medium_lorem}
               </p>
-              <a className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-sky-50 text-sky-600 hover:bg-sky-100 hover:text-sky-700 focus:ring-sky-600 mt-8 hover:cursor-pointer">
-                Learn More
-                <FaAngleRight className="overflow-visible ml-3 text-sky-300 group-hover:text-sky-400" />
-              </a>
+              <Link href="/about" passHref>
+                <a className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-sky-50 text-sky-600 hover:bg-sky-100 hover:text-sky-700 focus:ring-sky-600 mt-8 hover:cursor-pointer">
+                  Learn More
+                  <FaAngleRight className="overflow-visible ml-3 text-sky-300 group-hover:text-sky-400" />
+                </a>
+              </Link>
             </div>
             <div className="relative pt-10 xl:pt-0 mt-10 xl:mt-2">
               <div className="absolute h-96 w-full bg-gradient-to-b from-sky-500 via-slate-100 to-white opacity-10">
@@ -127,7 +130,7 @@ const Home: NextPage = () => {
                 <Image layout="fill" src="/images/medal.png" />
               </div>
               <h2 className="mt-8 font-semibold text-indigo-500">Excellence</h2>
-              <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 ">
+              <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
                 {short_lorem}
               </p>
             </div>
