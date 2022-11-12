@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { medium_lorem, short_lorem } from "../../constants";
-import { CTAButton } from "../atoms";
 import {
   FaInstagram,
   FaLinkedin,
@@ -25,14 +24,18 @@ export const HeroBanner = () => {
           {medium_lorem}
         </p>
         <div className="flex flex-row justify-evenly">
-          <div className=" flex flex-row items-center">
-            <p className="text-orange font-bold">Learn more</p>
-            <FaAngleRight className="h-5 w-5 fill-orange" />
-          </div>
-          <div className=" flex flex-row items-center">
-            <p className="text-white">Contact us</p>
-            <FaAngleRight className="h-5 w-5 fill-white" />
-          </div>
+          <Link href="/projects" passHref>
+            <a className=" flex flex-row items-center hover:cursor-pointer">
+              <p className="text-orange font-bold">Learn more</p>
+              <FaAngleRight className="h-5 w-5 fill-orange" />
+            </a>
+          </Link>
+          <Link href="/contact">
+            <a className=" flex flex-row items-center hover:cursor-pointer">
+              <p className="text-white">Contact us</p>
+              <FaAngleRight className="h-5 w-5 fill-white" />
+            </a>
+          </Link>
         </div>
       </div>
       <div className="flex flex-row items-center justify-center bg-lightBlue text-white text-lg h-11 w-full py-2">
