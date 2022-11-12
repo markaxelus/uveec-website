@@ -1,15 +1,17 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CompanyName } from "../../constants";
-import { Logo } from "../atoms";
 import { FaInstagram, FaLinkedin, FaGithub, FaSlack } from "react-icons/fa";
 
 export const Footer = () => {
   return (
     <div>
       <div className="flex flex-col md:flex-row justify-evenly items-center md:items-baseline h-[700px] md:h-72 w-full space-y-7 md:space-y-16 bg-royalBlue ">
-        <div className="mb-20">
-          <Logo src="uveec3.png" className="h-16 w-36 top-16" />
-        </div>
+        <Link href="/" passHref>
+          <a className="relative h-16 w-36 mb-20 top-16 hover:cursor-pointer">
+            <Image layout="fill" src="/images/uveec3.png" />
+          </a>
+        </Link>
         <div className="space-y-2 text-center md:text-start">
           <p className="text-white font-bold mb-4">Product</p>
           <p className="text-white hover:text-orange hover:cursor-pointer">
