@@ -12,9 +12,9 @@ import {
 
 export const HeroBanner = () => {
   return (
-    <div className="flex flex-col relative items-center h-96 md:h-[660px] w-full">
+    <div className="flex flex-col relative items-center h-[570px] md:h-[660px] w-full">
       <div className="relative h-full w-full">
-        <Image layout="fill" src="/images/hero2.jpg" />
+        <Image layout="fill" src="/images/hero2.jpg" className="object-cover" />
         <div className="bg-black h-full w-full opacity-60" />
       </div>
       <div className="absolute top-10 w-96 md:w-[800px]">
