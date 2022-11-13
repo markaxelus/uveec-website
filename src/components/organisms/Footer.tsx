@@ -9,30 +9,41 @@ export const Footer = () => {
       <div className="flex flex-col md:flex-row justify-evenly items-center md:items-baseline h-[700px] md:h-72 w-full space-y-7 md:space-y-16 bg-royalBlue ">
         <Link href="/" passHref>
           <a className="relative h-16 w-36 mb-20 top-16 hover:cursor-pointer">
-            <Image layout="fill" src="/images/uveec3.png" />
+            <Image layout="fill" src="/images/uveec2.png" />
           </a>
         </Link>
-        <div className="space-y-2 text-center md:text-start">
-          <p className="text-white font-bold mb-4">Product</p>
-          <p className="text-white hover:text-orange hover:cursor-pointer">
-            Unmanned Surface Vehicle
-          </p>
+        <div className="space-y-2 flex flex-col text-center md:text-start">
+          <h2 className="text-white font-bold mb-4">Product</h2>
+          <Link href="/projects/#usv" passHref>
+            <a className="text-white hover:text-orange hover:cursor-pointer">
+              Unmanned Surface Vehicle
+            </a>
+          </Link>
         </div>
 
-        <div className="space-y-2 text-center md:text-start">
-          <p className="text-white font-bold mb-4">Information</p>
-          <p className="text-white hover:text-orange hover:cursor-pointer">
-            About Us
-          </p>
-          <p className="text-white hover:text-orange hover:cursor-pointer">
-            Meet the Team
-          </p>
+        <div className="space-y-2 flex flex-col text-center md:text-start">
+          <h2 className="text-white font-bold mb-4">Information</h2>
+          <Link href="/about" passHref>
+            <a className="text-white hover:text-orange hover:cursor-pointer">
+              About Us
+            </a>
+          </Link>
+          <Link href="/about/#team" passHref>
+            <a className="text-white hover:text-orange hover:cursor-pointer">
+              Meet the Team
+            </a>
+          </Link>
           <p className="text-white hover:text-orange hover:cursor-pointer">
             Faculty Supervisor
           </p>
-          <p className="text-white hover:text-orange hover:cursor-pointer">
-            Community Outreach
-          </p>
+          <Link
+            href="https://www.instagram.com/uvicenvironment/?hl=en"
+            passHref
+          >
+            <a className="text-white hover:text-orange hover:cursor-pointer">
+              Community Outreach
+            </a>
+          </Link>
         </div>
         <div className="flex flex-col items-center md:items-baseline">
           <p className="text-white font-bold">
