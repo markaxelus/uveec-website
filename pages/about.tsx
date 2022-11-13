@@ -68,6 +68,7 @@ const About: NextPage = () => {
                   {medium_lorem}
                 </p>
               </div>
+
               <div className="flex flex-row pt-4">
                 <div className="flex flex-col">
                   <div className="h-52 w-52 bg-slate-400 rounded-xl"></div>
