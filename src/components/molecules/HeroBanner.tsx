@@ -16,7 +16,7 @@ export const HeroBanner = () => {
         <Image layout="fill" src="/images/hero2.jpg" className="object-cover" />
         <div className="bg-black h-full w-full opacity-60" />
       </div>
-      <div className="absolute top-10 w-96 md:w-[800px]">
+      <div className="absolute top-10 w-full md:w-[800px]">
         <h1 className="text-slate-50 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center mb-3">
           {short_lorem}
         </h1>
