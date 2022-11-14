@@ -3,7 +3,7 @@ import { Logo } from "../atoms";
 
 export const SponsorMarquee = () => {
   return (
-    <Marquee direction="right" speed={50} gradient={false} className="w-full">
+    <Marquee direction="right" speed={50} gradient={false}>
       <div className="flex flex-row items-center justify-evenly space-x-5 mr-5">
         <Logo src="bluerobotics.png" className="h-12 w-56" />
         <Logo src="altium.png" className="h-10 w-48" />
