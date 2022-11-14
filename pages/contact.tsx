@@ -1,8 +1,46 @@
 import type { NextPage } from "next";
+import { Logo } from "../src/components/atoms";
 import { BaseLayout } from "../src/Layout/BaseLayout";
+import { Contacts } from "../src/constants";
+import Image from "next/image";
+import Link from "next/link";
 
 const Contact: NextPage = () => {
-  return <BaseLayout>Contact</BaseLayout>;
+  return (
+    <BaseLayout>
+      <div className="container px-8 md:px-0 flex flex-col justify-center text-center items-center mx-auto py-10 w-96 md:w-[600px] relative " >
+        <h1 className="text-4xl">Join our community.</h1>
+        <p className="py-8">Get involved with UVEEC's community to meet our team and hear about future product announcements</p>
+      </div>
+
+        <div className="container mx-auto relative grid lg:grid-cols-3 justify-items-center">
+          {Contacts.map(contact => (
+            <div>
+              <div className="w-full h-64 lg:h-64 lg:w-96 relative">
+                <Image 
+                  src={contact.img}
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
+              <div className="flex flex-col items-center py-4">
+                <h1 className="py-2 text-3xl font-bold">{contact.title}</h1>
+                <p className="pb-7">{contact.passage}</p>
+              </div>
+              <div className="flex justify-center w-96 pb-14 text-center">
+                <Link href={`${contact.link}`} passHref>
+                  <a target="_blank" rel="noopener noreferrer">
+                    <span className='block bg-blue-600 text-lg font-medium rounded-2xl text-white w-96 py-4 cursor-pointer'>
+                      {contact.button}
+                    </span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+    </BaseLayout>
+  );
 };
 
 export default Contact;

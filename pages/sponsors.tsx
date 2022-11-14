@@ -8,8 +8,7 @@ import Link from "next/link";
 const Sponsors: NextPage = () => {
   return (
     <BaseLayout>
-      <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-3 justify-items-center">
+        <div className="container mx-auto px-6 grid lg:grid-cols-3 justify-items-center">
           {SponsorMap.map(card => (
             <div className="w-full h-64 lg:h-64 lg:w-96 relative hover:cursor-pointer overflow-hidden group">
               <Link href={card.link} passHref>
@@ -29,7 +28,6 @@ const Sponsors: NextPage = () => {
             </div>
           ))}
         </div>
-      </div>
     </BaseLayout>
   );
 };

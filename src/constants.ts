@@ -15,12 +15,24 @@ export const OurGoalsParagraphs = [
 export const Contacts = [
     {
         img: "/images/social-media.png",
+        title: "Instagram",
+        button: "Follow",
+        passage: "Follow UVEEC on Instagram for news & updates",
+        link: "https://www.instagram.com/uvicenvironment/?hl=en"
     },
     {
-        img: "/images/conversation.png"
+        img: "/images/conversation.png",
+        title: "Slack",
+        button: "Join",
+        passage: "Join the discussion with other members.",
+        link: "https://uvicenvironment.slack.com"
     },
     {
-        img: "/images/message.png"
+        img: "/images/message.png",
+        title: "Contact",
+        button: "Message",
+        passage: "Send us a private message to get in touch.",
+        link: "mailto:uvicenvironment@gmail.com"
     }
 ]
 
