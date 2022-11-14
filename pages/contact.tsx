@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
-import { Logo } from "../src/components/atoms";
 import { BaseLayout } from "../src/Layout/BaseLayout";
-import { Contacts } from "../src/constants";
+import { ContactsMap } from "../src/constants";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -17,7 +16,7 @@ const Contact: NextPage = () => {
       </div>
 
       <div className="mx-auto relative grid lg:grid-cols-3 justify-items-center">
-        {Contacts.map((contact) => (
+        {ContactsMap.map((contact) => (
           <div>
             <div className="w-full h-64 lg:h-64 lg:w-96 relative">
               <Image src={contact.img} layout="fill" objectFit="contain" />
