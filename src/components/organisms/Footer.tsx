@@ -33,9 +33,11 @@ export const Footer = () => {
               Meet the Team
             </a>
           </Link>
-          <p className="text-white hover:text-orange hover:cursor-pointer">
-            Faculty Supervisor
-          </p>
+          <Link href="/error" passHref>
+            <a className="text-white hover:text-orange hover:cursor-pointer">
+              Faculty Supervisor
+            </a>
+          </Link>
           <Link
             href="https://www.instagram.com/uvicenvironment/?hl=en"
             passHref
