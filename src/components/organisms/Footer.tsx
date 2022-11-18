@@ -33,8 +33,15 @@ export const Footer = () => {
               Meet the Team
             </a>
           </Link>
-          <Link href="/error" passHref>
-            <a className="text-white hover:text-orange hover:cursor-pointer">
+          <Link
+            href="https://www.uvic.ca/ecs/mechanical/faculty-and-staff/faculty/profiles/valeo-caterina.php"
+            passHref
+          >
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-orange hover:cursor-pointer"
+            >
               Faculty Supervisor
             </a>
           </Link>
