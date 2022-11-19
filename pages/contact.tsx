@@ -10,22 +10,25 @@ const Contact: NextPage = () => {
       <div className="px-8 md:px-0 flex flex-col justify-center text-center items-center mx-auto py-10 w-full md:w-[600px] relative ">
         <h1 className="text-4xl">Join our community.</h1>
         <p className="py-8">
-          Get involved with UVEEC's community to meet our team and hear about
-          future product announcements
+          Get involved with UVEEC&apos;s community to meet our team and hear
+          about future product announcements
         </p>
       </div>
 
       <div className="mx-auto relative grid lg:grid-cols-3 justify-items-center">
         {ContactsMap.map((contact, i) => (
           <div>
-            <div className="w-full h-64 lg:h-64 lg:w-96 relative">
+            <div className="w-full h-64 lg:h-64 lg:w-96 relative" key={i}>
               <Image src={contact.img} layout="fill" objectFit="contain" />
             </div>
-            <div className="flex flex-col items-center py-4">
+            <div className="flex flex-col items-center py-4" key={i}>
               <h1 className="py-2 text-3xl font-bold">{contact.title}</h1>
               <p className="pb-7">{contact.passage}</p>
             </div>
-            <div className="flex justify-center w-full pb-14 text-center">
+            <div
+              className="flex justify-center w-full pb-14 text-center"
+              key={i}
+            >
               <Link href={`${contact.link}`} passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   <span className="block bg-blue-600 text-lg font-medium rounded-2xl text-white w-80 py-4 cursor-pointer">
