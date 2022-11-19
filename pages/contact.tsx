@@ -37,11 +37,8 @@ const Contact: NextPage = () => {
             </div>
             <div className="flex justify-center w-full pb-14 text-center">
               <Link href={`${contact.link}`} passHref key={i}>
-                <a target="_blank" rel="noopener noreferrer">
-                  <span
-                    className="block bg-blue-600 text-lg font-medium rounded-2xl text-white w-80 py-4 cursor-pointer"
-                    key={i}
-                  >
+                <a target="_blank" rel="noopener noreferrer" key={i}>
+                  <span className="block bg-blue-600 text-lg font-medium rounded-2xl text-white w-80 py-4 cursor-pointer">
                     {contact.button}
                   </span>
                 </a>

@@ -8,8 +8,11 @@ const Sponsors: NextPage = () => {
   return (
     <BaseLayout>
       <div className="grid lg:grid-cols-3 justify-items-center mx-auto px-6">
-        {SponsorMap.map((card) => (
-          <div className="w-full h-64 lg:h-64 lg:w-96 relative hover:cursor-pointer overflow-hidden group">
+        {SponsorMap.map((card, i) => (
+          <div
+            className="w-full h-64 lg:h-64 lg:w-96 relative hover:cursor-pointer overflow-hidden group"
+            key={i}
+          >
             <Link href={card.link} passHref>
               <a target="_blank" rel="noopener noreferrer">
                 <Image
