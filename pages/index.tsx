@@ -117,6 +117,7 @@ const Home: NextPage = () => {
                       layout="fill"
                       src="/images/team.jpg"
                       className="object-cover"
+                      priority
                     />
                   </div>
                 </div>
