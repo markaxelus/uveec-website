@@ -116,7 +116,7 @@ const Home: NextPage = () => {
                   <div className="relative overflow-hidden shadow-xl flex h-[31.625rem] max-h-[60vh] sm:max-h-[none] sm:rounded-xl lg:h-[34.6875rem] xl:h-[31.625rem]">
                     <Image
                       layout="fill"
-                      src="/images/team.jpg"
+                      src="/images/team.JPG"
                       className="object-cover"
                       alt={""}
                       priority
