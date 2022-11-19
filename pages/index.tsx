@@ -23,7 +23,12 @@ const Home: NextPage = () => {
               </p>
               <div className="flex flex-row justify-around mx-auto mt-4 h-auto w-52">
                 <div className="relative h-14 w-14">
-                  <Image layout="fill" src="/images/user.png" alt={""} />
+                  <Image
+                    layout="fill"
+                    src="/images/user.png"
+                    alt={""}
+                    priority
+                  />
                 </div>
                 <div>
                   <div className="text-slate-900 font-semibold dark:text-white">
@@ -39,7 +44,12 @@ const Home: NextPage = () => {
           <section id="team">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
               <div className="relative h-16 w-16">
-                <Image layout="fill" src="/images/united.png" alt={""} />
+                <Image
+                  layout="fill"
+                  src="/images/united.png"
+                  alt={""}
+                  priority
+                />
               </div>
               <h2 className="mt-8 font-semibold text-sky-500">Teamwork</h2>
               <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
@@ -107,6 +117,7 @@ const Home: NextPage = () => {
                           src="/images/manufacturing2.jpg"
                           className="object-cover"
                           alt={""}
+                          priority
                         />
                       </div>
                     </div>
@@ -130,7 +141,12 @@ const Home: NextPage = () => {
           <section id="awards">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
               <div className="relative h-16 w-16">
-                <Image layout="fill" src="/images/medal.png" alt={""} />
+                <Image
+                  layout="fill"
+                  src="/images/medal.png"
+                  alt={""}
+                  priority
+                />
               </div>
               <h2 className="mt-8 font-semibold text-indigo-500">Excellence</h2>
               <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
@@ -186,6 +202,7 @@ const Home: NextPage = () => {
                         height={88}
                         width={66}
                         alt={""}
+                        priority
                       />
                       <div className="min-w-0 relative flex-auto">
                         <h2 className="font-semibold text-slate-900 truncate sm:pr-20 dark:text-slate-100">
@@ -196,6 +213,7 @@ const Home: NextPage = () => {
                           width={85}
                           src="/images/reedpope.png"
                           alt={""}
+                          priority
                         />
                         <p className="text-slate-400">Business Acumen Award</p>
                       </div>
@@ -209,6 +227,7 @@ const Home: NextPage = () => {
                       src="/images/awarding.jpg"
                       className="object-cover"
                       alt={""}
+                      priority
                     />
                   </div>
                 </div>
