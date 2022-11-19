@@ -13,6 +13,7 @@ const About: NextPage = () => {
             layout="fill"
             src="/images/header3.jpg"
             className="object-cover blur-sm"
+            alt={""}
           />
           <div className="absolute bg-black h-full w-full opacity-50" />
 
@@ -88,6 +89,7 @@ const About: NextPage = () => {
                     layout="fill"
                     src="/images/manufacturing.jpg"
                     className="object-cover"
+                    alt={""}
                   />
                 </div>
               </Carousel>
@@ -135,6 +137,7 @@ const About: NextPage = () => {
                       layout="fill"
                       src="/images/manufacturing.jpg"
                       className="object-cover"
+                      alt={""}
                     />
                   </div>
                 </Carousel>
@@ -172,6 +175,7 @@ const About: NextPage = () => {
                       layout="fill"
                       src="/images/manufacturing.jpg"
                       className="object-cover"
+                      alt={""}
                     />
                   </div>
                 </Carousel>
@@ -209,6 +213,7 @@ const About: NextPage = () => {
                       layout="fill"
                       src="/images/manufacturing.jpg"
                       className="object-cover"
+                      alt={""}
                     />
                   </div>
                 </Carousel>

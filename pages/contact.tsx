@@ -16,7 +16,7 @@ const Contact: NextPage = () => {
       </div>
 
       <div className="mx-auto relative grid lg:grid-cols-3 justify-items-center">
-        {ContactsMap.map((contact) => (
+        {ContactsMap.map((contact, i) => (
           <div>
             <div className="w-full h-64 lg:h-64 lg:w-96 relative">
               <Image src={contact.img} layout="fill" objectFit="contain" />
