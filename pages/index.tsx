@@ -23,7 +23,7 @@ const Home: NextPage = () => {
               </p>
               <div className="flex flex-row justify-around mx-auto mt-4 h-auto w-52">
                 <div className="relative h-14 w-14">
-                  <Image layout="fill" src="/images/user.png" />
+                  <Image layout="fill" src="/images/user.png" alt={""} />
                 </div>
                 <div>
                   <div className="text-slate-900 font-semibold dark:text-white">
@@ -106,6 +106,7 @@ const Home: NextPage = () => {
                           layout="fill"
                           src="/images/manufacturing2.jpg"
                           className="object-cover"
+                          alt={""}
                         />
                       </div>
                     </div>
@@ -117,6 +118,7 @@ const Home: NextPage = () => {
                       layout="fill"
                       src="/images/team.jpg"
                       className="object-cover"
+                      alt={""}
                       priority
                     />
                   </div>
@@ -128,7 +130,7 @@ const Home: NextPage = () => {
           <section id="awards">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
               <div className="relative h-16 w-16">
-                <Image layout="fill" src="/images/medal.png" />
+                <Image layout="fill" src="/images/medal.png" alt={""} />
               </div>
               <h2 className="mt-8 font-semibold text-indigo-500">Excellence</h2>
               <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
@@ -179,7 +181,12 @@ const Home: NextPage = () => {
                 <div className="lg:col-span-5 xl:col-span-6 flex flex-col">
                   <div className="relative z-10 bg-white rounded-xl shadow-xl ring-1 ring-slate-900/5 divide-y divide-slate-100 my-auto xl:mt-18">
                     <div className="p-4 sm:p-6 lg:p-4 xl:p-6 space-x-4 items-start sm:space-x-6 lg:space-x-4 xl:space-x-6 flex">
-                      <Image src="/images/award.png" height={88} width={66} />
+                      <Image
+                        src="/images/award.png"
+                        height={88}
+                        width={66}
+                        alt={""}
+                      />
                       <div className="min-w-0 relative flex-auto">
                         <h2 className="font-semibold text-slate-900 truncate sm:pr-20 dark:text-slate-100">
                           2021 Engineering Showcase
@@ -188,6 +195,7 @@ const Home: NextPage = () => {
                           height={32}
                           width={85}
                           src="/images/reedpope.png"
+                          alt={""}
                         />
                         <p className="text-slate-400">Business Acumen Award</p>
                       </div>
@@ -200,6 +208,7 @@ const Home: NextPage = () => {
                       layout="fill"
                       src="/images/awarding.jpg"
                       className="object-cover"
+                      alt={""}
                     />
                   </div>
                 </div>
