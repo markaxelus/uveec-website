@@ -82,15 +82,15 @@ const About: NextPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="h-full w-full md:w-80">
-                <Carousel>
-                  <img src="/images/manufacturing.jpg" />
-                  <img src="/image2.png" />
-                  <img src="/image3.png" />
-                  <img src="/image4.png" />
-                  <img src="/image5.png" />
-                </Carousel>
-              </div>
+              <Carousel>
+                <div className="h-96 w-96 md:w-80">
+                  <Image
+                    layout="fill"
+                    src="/images/manufacturing.jpg"
+                    className="object-cover"
+                  />
+                </div>
+              </Carousel>
             </div>
           </section>
 
@@ -130,11 +130,13 @@ const About: NextPage = () => {
               </div>
               <div className="h-full w-full md:w-80">
                 <Carousel>
-                  <img src="/images/manufacturing.jpg" />
-                  <img src="/image2.png" />
-                  <img src="/image3.png" />
-                  <img src="/image4.png" />
-                  <img src="/image5.png" />
+                  <div className="h-96 w-96 md:w-80">
+                    <Image
+                      layout="fill"
+                      src="/images/manufacturing.jpg"
+                      className="object-cover"
+                    />
+                  </div>
                 </Carousel>
               </div>
             </div>
@@ -165,11 +167,13 @@ const About: NextPage = () => {
               </div>
               <div className="h-full w-full md:w-80">
                 <Carousel>
-                  <img src="/images/manufacturing.jpg" />
-                  <img src="/image2.png" />
-                  <img src="/image3.png" />
-                  <img src="/image4.png" />
-                  <img src="/image5.png" />
+                  <div className="h-96 w-96 md:w-80">
+                    <Image
+                      layout="fill"
+                      src="/images/manufacturing.jpg"
+                      className="object-cover"
+                    />
+                  </div>
                 </Carousel>
               </div>
             </div>
@@ -200,11 +204,13 @@ const About: NextPage = () => {
               </div>
               <div className="h-full w-full md:w-80">
                 <Carousel>
-                  <img src="/images/manufacturing.jpg" />
-                  <img src="/image2.png" />
-                  <img src="/image3.png" />
-                  <img src="/image4.png" />
-                  <img src="/image5.png" />
+                  <div className="h-96 w-96 md:w-80">
+                    <Image
+                      layout="fill"
+                      src="/images/manufacturing.jpg"
+                      className="object-cover"
+                    />
+                  </div>
                 </Carousel>
               </div>
             </div>
