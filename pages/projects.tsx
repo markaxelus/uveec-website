@@ -60,6 +60,7 @@ const Projects: NextPage = () => {
                   layout="fill"
                   src="/images/usv.png"
                   className="object-cover rounded-xl"
+                  alt={""}
                 />
               </div>
             </div>

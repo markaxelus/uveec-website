@@ -9,7 +9,7 @@ export const Footer = () => {
       <div className="flex flex-col md:flex-row justify-evenly items-center md:items-baseline h-[700px] md:h-72 w-full space-y-7 md:space-y-16 bg-royalBlue ">
         <Link href="/" passHref>
           <a className="relative h-16 w-36 mb-20 top-16 hover:cursor-pointer">
-            <Image layout="fill" src="/images/uveec2.png" />
+            <Image layout="fill" src="/images/uveec2.png" alt={""} />
           </a>
         </Link>
         <div className="space-y-2 flex flex-col text-center md:text-start">

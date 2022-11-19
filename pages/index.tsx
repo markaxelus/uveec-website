@@ -39,7 +39,7 @@ const Home: NextPage = () => {
           <section id="team">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
               <div className="relative h-16 w-16">
-                <Image layout="fill" src="/images/united.png" />
+                <Image layout="fill" src="/images/united.png" alt={""} />
               </div>
               <h2 className="mt-8 font-semibold text-sky-500">Teamwork</h2>
               <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
