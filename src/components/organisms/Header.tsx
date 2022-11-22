@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { NavBar } from "../molecules";
+import { Menu } from "../molecules";
 
 export const Header = () => {
   return (
@@ -12,6 +13,9 @@ export const Header = () => {
       </Link>
       <div className="hidden md:block">
         <NavBar />
+      </div>
+      <div className="md:hidden">
+        <Menu />
       </div>
     </div>
   );
