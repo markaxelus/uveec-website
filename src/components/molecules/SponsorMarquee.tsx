@@ -18,6 +18,8 @@ export const SponsorMarquee = () => {
         <Logo src="maximumprototyping.png" className="h-14 w-52" />
         <Logo src="uvic.png" className="h-10 w-36" />
         <Logo src="ess.png" className="h-16 w-16" />
+        <Logo src="pointhope.png" className="h-24 w-52" />
+        <Logo src="seaspan.png" className="h-16 w-56" />
       </div>
     </Marquee>
   );

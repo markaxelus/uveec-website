@@ -78,6 +78,11 @@ export const SponsorMap = [
     link: "https://www.pcbway.com/",
   },
   {
+    img: "/images/pointhope.png",
+    title: "Point Hope Maritime Ltd",
+    link: "https://pointhopemaritime.com/",
+  },
+  {
     img: "/images/rainhouse.png",
     title: "RainHouse",
     link: "https://www.rainhouse.com/",
@@ -86,6 +91,11 @@ export const SponsorMap = [
     img: "/images/rapidharness.png",
     title: "RapidHarness",
     link: "https://rapidharness.com/",
+  },
+  {
+    img: "/images/seaspan.png",
+    title: "Seaspan ULC",
+    link: "https://www.seaspan.com/",
   },
   {
     img: "/images/teck.png",
