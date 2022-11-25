@@ -53,7 +53,7 @@ const Home: NextPage = () => {
               </div>
               <h2 className="mt-8 font-semibold text-sky-500">Teamwork</h2>
               <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
-                One of our club’s main goals is to give student hands-on
+                One of our club&apos;s main goals is to give student hands-on
                 engineering experience outside of their regular class work.
               </p>
               <p className="mt-4 max-w-3xl text-slate-400 space-y-6 ">

@@ -24,7 +24,7 @@ export const HeroBanner = () => {
       </div>
       <div className="absolute top-14 md:top-24 w-full md:w-[800px]">
         <h1 className="text-slate-50 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center mb-3">
-          “Saving the environment one project at a time”
+          Saving the environment one project at a time
         </h1>
         <p className="mt-6 text-lg text-slate-50 text-center max-w-3xl mx-auto mb-5">
           Our organization&apos;s primary purpose is to create out of the box
