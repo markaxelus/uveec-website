@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <div className="sticky top-0 z-50 flex flex-row items-center justify-between h-16 w-full px-4 py-2 shadow-2xl bg-royalBlue">
       <Link href="/" passHref>
-        <a className="relative h-7 md:h-10 w-20 md:w-28 hover:cursor-pointer">
+        <a className="relative h-10 w-28 hover:cursor-pointer">
           <Image layout="fill" src="/images/uveec.png" alt={""} priority />
         </a>
       </Link>
