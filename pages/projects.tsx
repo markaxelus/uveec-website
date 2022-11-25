@@ -21,15 +21,15 @@ const Projects: NextPage = () => {
                   Surface Vehicle that will collect microplastics from the
                   ocean: Microplastics are bits of plastic smaller than the end
                   of a pencil, and have significant negative effects on marine
-                  life and unknown effects on humans.” “The twin-hulled
-                  catamaran boat will drag a filtration module through ocean
-                  water, and collect microplastics. The real innovation in this
-                  project was in the planned microbubble filtration: Our founder
-                  Jun had been researching project ideas when he came across the
-                  idea of using bubbles to float plastic out of water. Because
-                  plastic is hydrophobic, which means that water does not stick
-                  to it, plastic would much rather stick to tiny air bubbles,
-                  and float to the surface.
+                  life and unknown effects on humans. The twin-hulled catamaran
+                  boat will drag a filtration module through ocean water, and
+                  collect microplastics. The real innovation in this project was
+                  in the planned microbubble filtration: Our founder Jun had
+                  been researching project ideas when he came across the idea of
+                  using bubbles to float plastic out of water. Because plastic
+                  is hydrophobic, which means that water does not stick to it,
+                  plastic would much rather stick to tiny air bubbles, and float
+                  to the surface.
                 </p>
                 <div className="flex flex-col md:flex-row space-x-0 md:space-x-20 space-y-4 md:space-y-0  mt-4">
                   <div className="flex flex-row items-center">
