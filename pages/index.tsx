@@ -53,10 +53,15 @@ const Home: NextPage = () => {
               </div>
               <h2 className="mt-8 font-semibold text-sky-500">Teamwork</h2>
               <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
-                {short_lorem}
+                One of our club’s main goals is to give student hands-on
+                engineering experience outside of their regular class work.
               </p>
               <p className="mt-4 max-w-3xl text-slate-400 space-y-6 ">
-                {medium_lorem}
+                The flexible nature of our club allows us to focus on one
+                small-scale project of varying scope (6-36 months per project).
+                Our team works to innovate and develop proof-of-concept
+                solutions that can foster innovative solutions to environmental
+                problems.
               </p>
               <Link href="/about" passHref>
                 <a className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-sky-50 text-sky-600 hover:bg-sky-100 hover:text-sky-700 focus:ring-sky-600 mt-8 hover:cursor-pointer">

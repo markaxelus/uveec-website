@@ -8,7 +8,7 @@ const About: NextPage = () => {
   return (
     <BaseLayout>
       <section id="about">
-        <div className="relative h-72 md:h-52 w-full">
+        <div className="relative h-64 md:h-52 w-full">
           <Image
             layout="fill"
             src="/images/header3.jpg"
@@ -18,7 +18,12 @@ const About: NextPage = () => {
           <div className="absolute bg-black h-full w-full opacity-50" />
 
           <div className="relative text-lg text-white max-w-3xl mx-auto py-10 md:py-16 px-5 md:p-0">
-            {medium_lorem}
+            The UVic environmental engineering club gives students a chance to
+            develop their technical and networking skills through hands on
+            learning, skill development workshops, and engineering conference
+            events. Joining our team&apos;s administration is a great
+            opportunity for those looking to take their project management and
+            leadership skills to the next level.
           </div>
         </div>
       </section>
