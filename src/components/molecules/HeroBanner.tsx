@@ -53,7 +53,7 @@ export const HeroBanner = () => {
             <FaInstagram className="h-6 w-6 fill-white hover:fill-orange hover:cursor-pointer" />
           </a>
         </Link>
-        &nbsp;
+        ,&nbsp;
         <Link
           href="https://www.linkedin.com/company/university-of-victoria-environmental-engineering-club-uveec/"
           passHref
@@ -62,7 +62,7 @@ export const HeroBanner = () => {
             <FaLinkedin className="h-6 w-6 fill-white hover:fill-orange hover:cursor-pointer" />
           </a>
         </Link>
-        &nbsp;
+        ,&nbsp;
         <Link
           href="https://github.com/UVic-Environmental-Engineering-Club"
           passHref
@@ -71,7 +71,7 @@ export const HeroBanner = () => {
             <FaGithub className="h-6 w-6 fill-white hover:fill-orange hover:cursor-pointer" />
           </a>
         </Link>
-        &nbsp;
+        ,&nbsp;and&nbsp;
         <Link href="https://uvicenvironment.slack.com" passHref>
           <a target="_blank" rel="noopener noreferrer">
             <FaSlack className="h-6 w-6 fill-white hover:fill-orange hover:cursor-pointer" />
