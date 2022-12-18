@@ -11,13 +11,28 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>University of Victoria Environmental Engineering Club</title>
+        <title>
+          University of Victoria Environmental Engineering Club - Saving the
+          environment one project at a time
+        </title>
+        <link rel="canonical" href="https://uveec.ca" key="canonical" />
         <meta
           name="description"
           content="Our organization's primary purpose is to create out of the box
           engineering solutions to everyday environmental problems in the local
           Capital Regional District of Victoria, British Columbia."
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="keywords"
+          content="Environmental Engineering, Environment, Engineering, Microplastics, University of Victoria, Victoria"
+        />
+        <meta
+          property="og:title"
+          content="University of Victoria Environmental Engineering Club"
+        />
+        <meta property="og:url" content="https://uveec.ca" />
+        <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <BaseLayout>
