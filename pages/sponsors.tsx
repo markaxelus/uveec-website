@@ -23,7 +23,7 @@ const Sponsors: NextPage = () => {
                   className="group-hover:blur-md transition-all duration-100 ease-out"
                 />
                 <div className="inset-0 flex justify-center items-center absolute p-5 opacity-0 scale-110 bg-black/40 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200 ease-out">
-                  <h3 className="text-white text-2xl md:text-3xl font-bold">
+                  <h3 className="text-white text-center text-2xl md:text-3xl font-bold">
                     {card.title}
                   </h3>
                 </div>
