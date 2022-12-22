@@ -12,8 +12,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>
-          University of Victoria Environmental Engineering Club - Saving the
-          environment one project at a time
+          University of Victoria Environmental Engineering Club
         </title>
         <link rel="canonical" href="https://uveec.ca" key="canonical" />
         <meta
@@ -25,7 +24,7 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="keywords"
-          content="UVEEC, Environmental Engineering, Environment, Engineering, Microplastics, University of Victoria, Victoria"
+          content="UVEEC,UVic Environmental Engineering, Environmental Engineering, Environment, Engineering, Microplastics, University of Victoria, Victoria"
         />
         <meta
           property="og:title"
