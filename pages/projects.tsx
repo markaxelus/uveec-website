@@ -13,7 +13,7 @@ const Projects: NextPage = () => {
           <section id="usv">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row items-center">
               <div className="flex flex-col">
-                <h2 className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
+                <h2 className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
                   Unmanned Surface Vehicle
                 </h2>
                 <p className="text-slate-400 mt-4 max-w-3xl space-y-6">
