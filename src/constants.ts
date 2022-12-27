@@ -108,3 +108,76 @@ export const SponsorMap = [
     link: "https://www.uvic.ca/",
   },
 ];
+
+export const SponsorMapDark = [
+  {
+    img: "/images/altech-dark.png",
+    title: "Altech",
+    link: "https://www.altechanodizing.com/",
+  },
+  {
+    img: "/images/altium-dark.png",
+    title: "Altium",
+    link: "https://www.altium.com/",
+  },
+  {
+    img: "/images/bluerobotics-dark.png",
+    title: "BlueRobotics",
+    link: "https://bluerobotics.com/",
+  },
+  {
+    img: "/images/digikey-dark.png",
+    title: "DigiKey",
+    link: "https://www.digikey.ca/",
+  },
+  {
+    img: "/images/ess-dark.png",
+    title: "Engineering Student Society",
+    link: "https://onlineacademiccommunity.uvic.ca/ess/",
+  },
+  {
+    img: "/images/fibertek-dark.png",
+    title: "FiberTek",
+    link: "https://www.fibertek.com/",
+  },
+  {
+    img: "/images/maximumprototyping-dark.png",
+    title: "Maximum Prototyping",
+    link: "https://maxproto.com/",
+  },
+  {
+    img: "/images/pcbway-dark.png",
+    title: "PCBWay",
+    link: "https://www.pcbway.com/",
+  },
+  {
+    img: "/images/pointhope-dark.png",
+    title: "Point Hope Maritime Ltd",
+    link: "https://pointhopemaritime.com/",
+  },
+  {
+    img: "/images/rainhouse-dark.png",
+    title: "RainHouse",
+    link: "https://www.rainhouse.com/",
+  },
+  {
+    img: "/images/rapidharness-dark.png",
+    title: "RapidHarness",
+    link: "https://rapidharness.com/",
+  },
+  {
+    img: "/images/seaspan-dark.png",
+    title: "Seaspan ULC",
+    link: "https://www.seaspan.com/",
+  },
+  {
+    img: "/images/teck-dark.png",
+    title: "Teck",
+    link: "https://www.teck.com/",
+  },
+  {
+    img: "/images/uvic-dark.png",
+    title: "University of Victoria",
+    link: "https://www.uvic.ca/",
+  },
+];

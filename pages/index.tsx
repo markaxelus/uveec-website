@@ -11,9 +11,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>
-          University of Victoria Environmental Engineering Club
-        </title>
+        <title>University of Victoria Environmental Engineering Club</title>
         <link rel="canonical" href="https://uveec.ca" key="canonical" />
         <meta
           name="description"
@@ -24,7 +22,7 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="keywords"
-          content="UVEEC,UVic Environmental Engineering, Environmental Engineering, Environment, Engineering, Microplastics, University of Victoria, Victoria"
+          content="UVEEC, UVic Environmental Engineering, Environmental Engineering, Environment, Engineering, Microplastics, University of Victoria, Victoria"
         />
         <meta
           property="og:title"
@@ -41,7 +39,7 @@ const Home: NextPage = () => {
           <div className="pt-20 mb-20 space-y-20 overflow-hidden sm:pt-32 sm:mb-32 sm:space-y-32 md:pt-40 md:mb-40 md:space-y-40">
             <section>
               <div className="relative justify-center text-center mx-auto my-28 w-96 md:w-[800px] px-8">
-                <h2 className="text-slate-900 text-4xl tracking-tight font-extrabold sm:text-5xl">
+                <h2 className="text-slate-900 text-4xl tracking-tight font-extrabold sm:text-5xl dark:text-white">
                   {short_lorem}
                 </h2>
                 <p className="text-slate-400 mt-6 max-w-3xl mx-auto text-lg">
@@ -77,8 +75,10 @@ const Home: NextPage = () => {
                     priority
                   />
                 </div>
-                <h2 className="mt-8 font-semibold text-sky-500">Teamwork</h2>
-                <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
+                <h2 className="mt-8 font-semibold text-sky-500 dark:text-sky-400">
+                  Teamwork
+                </h2>
+                <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
                   One of our club&apos;s main goals is to give student hands-on
                   engineering experience outside of their regular class work.
                 </p>
@@ -90,14 +90,14 @@ const Home: NextPage = () => {
                   solutions to environmental problems.
                 </p>
                 <Link href="/about" passHref>
-                  <a className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-sky-50 text-sky-600 hover:bg-sky-100 hover:text-sky-700 focus:ring-sky-600 mt-8 hover:cursor-pointer">
+                  <a className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-sky-50 text-sky-600 hover:bg-sky-200 hover:text-sky-700 focus:ring-sky-500 dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white dark:focus:ring-slate-500 mt-8">
                     Learn More
                     <FaAngleRight className="overflow-visible ml-3 text-sky-300 group-hover:text-sky-400" />
                   </a>
                 </Link>
               </div>
               <div className="relative pt-10 xl:pt-0 mt-10 xl:mt-2">
-                <div className="absolute h-96 w-full bg-gradient-to-b from-sky-500 via-slate-100 to-white opacity-10">
+                <div className="absolute h-96 w-full bg-gradient-to-b from-sky-500 via-slate-100 to-slate-50 opacity-10 dark:to-slate-900">
                   <svg
                     width="100%"
                     height="100%"
@@ -138,10 +138,10 @@ const Home: NextPage = () => {
                 </div>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:grid lg:grid-cols-12 lg:gap-8">
                   <div className="lg:col-span-5 xl:col-span-6 flex flex-col">
-                    <div className="relative z-10 bg-white rounded-xl shadow-xl ring-1 ring-slate-900/5 divide-y divide-slate-100 my-auto xl:mt-18">
-                      <div className="absolute inset-x-0 inset-y-5 border-t border-b border-slate-100 pointer-events-none" />
-                      <div className="absolute inset-x-6 inset-y-0 border-l border-r border-slate-100 pointer-events-none" />
-                      <div className="bg-slate-50 overflow-hidden py-6 sm:py-9 lg:py-6 xl:py-9 px-6">
+                    <div className="relative z-10 bg-white ring-1 ring-slate-900/5 rounded-lg shadow-xl px-6 py-5 my-auto xl:mt-18 dark:bg-slate-800">
+                      <div className="absolute inset-x-0 inset-y-5 border-t border-b border-slate-100 pointer-events-none dark:border-slate-700" />
+                      <div className="absolute inset-x-6 inset-y-0 border-l border-r border-slate-100 pointer-events-none dark:border-slate-700" />
+                      <div className="bg-slate-50 overflow-hidden py-6 sm:py-9 lg:py-6 xl:py-9 px-6 dark:bg-slate-900/50">
                         <div className="relative h-96">
                           <Image
                             layout="fill"
@@ -182,12 +182,12 @@ const Home: NextPage = () => {
                 <h2 className="mt-8 font-semibold text-indigo-500">
                   Excellence
                 </h2>
-                <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight">
+                <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
                   {short_lorem}
                 </p>
               </div>
               <div className="relative pt-10 xl:pt-0 mt-10 xl:mt-2">
-                <div className="absolute h-96 w-full bg-gradient-to-b via-slate-100 from-indigo-500 to-white opacity-10">
+                <div className="absolute h-96 w-full bg-gradient-to-b via-slate-100 from-indigo-500 to-slate-50 opacity-10 dark:to-slate-900">
                   <svg
                     width="100%"
                     height="100%"
@@ -228,7 +228,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:grid lg:grid-cols-12 lg:gap-8">
                   <div className="lg:col-span-5 xl:col-span-6 flex flex-col">
-                    <div className="relative z-10 bg-white rounded-xl shadow-xl ring-1 ring-slate-900/5 divide-y divide-slate-100 my-auto xl:mt-18">
+                    <div className="relative z-10 bg-white rounded-xl shadow-xl ring-1 ring-slate-900/5 divide-y divide-slate-100 my-auto xl:mt-18 dark:bg-slate-800 dark:divide-slate-200/5 dark:highlight-white/10">
                       <div className="p-4 sm:p-6 lg:p-4 xl:p-6 space-x-4 items-start sm:space-x-6 lg:space-x-4 xl:space-x-6 flex">
                         <Image
                           src="/images/award.png"
@@ -241,14 +241,25 @@ const Home: NextPage = () => {
                           <h2 className="font-semibold text-slate-900 truncate sm:pr-20 dark:text-slate-100">
                             2021 Engineering Showcase
                           </h2>
-                          <Image
-                            height={32}
-                            width={85}
-                            src="/images/reedpope.png"
-                            alt={""}
-                            priority
-                          />
-                          <p className="text-slate-400">
+                          <div className="dark:hidden">
+                            <Image
+                              height={32}
+                              width={85}
+                              src="/images/reedpope.png"
+                              alt={""}
+                              priority
+                            />
+                          </div>
+                          <div className="hidden dark:flex">
+                            <Image
+                              height={32}
+                              width={85}
+                              src="/images/reedpope-dark.png"
+                              alt={""}
+                              priority
+                            />
+                          </div>
+                          <p className="text-slate-400 ">
                             Business Acumen Award
                           </p>
                         </div>

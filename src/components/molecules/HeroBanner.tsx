@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { medium_lorem, short_lorem } from "../../constants";
 import {
   FaInstagram,
   FaLinkedin,
@@ -40,17 +39,17 @@ export const HeroBanner = () => {
           </Link>
           <Link href="/contact">
             <a className=" flex flex-row items-center hover:cursor-pointer">
-              <p className="text-white">Contact us</p>
-              <FaAngleRight className="h-5 w-5 fill-white" />
+              <p className="text-slate-50">Contact us</p>
+              <FaAngleRight className="h-5 w-5 fill-slate-50" />
             </a>
           </Link>
         </div>
       </div>
-      <div className="flex flex-row items-center justify-center bg-lightBlue text-white text-lg h-11 w-full py-2">
+      <div className="flex flex-row items-center justify-center bg-lightBlue text-slate-50 text-lg h-11 w-full py-2">
         Find us on&nbsp;
         <Link href="https://www.instagram.com/uvicenvironment/?hl=en" passHref>
           <a target="_blank" rel="noopener noreferrer">
-            <FaInstagram className="h-6 w-6 fill-white hover:fill-orange hover:cursor-pointer" />
+            <FaInstagram className="h-6 w-6 fill-slate-50 hover:fill-orange hover:cursor-pointer" />
           </a>
         </Link>
         ,&nbsp;
@@ -59,7 +58,7 @@ export const HeroBanner = () => {
           passHref
         >
           <a target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="h-6 w-6 fill-white hover:fill-orange hover:cursor-pointer" />
+            <FaLinkedin className="h-6 w-6 fill-slate-50 hover:fill-orange hover:cursor-pointer" />
           </a>
         </Link>
         ,&nbsp;
@@ -68,13 +67,13 @@ export const HeroBanner = () => {
           passHref
         >
           <a target="_blank" rel="noopener noreferrer">
-            <FaGithub className="h-6 w-6 fill-white hover:fill-orange hover:cursor-pointer" />
+            <FaGithub className="h-6 w-6 fill-slate-50 hover:fill-orange hover:cursor-pointer" />
           </a>
         </Link>
         ,&nbsp;and&nbsp;
         <Link href="https://uvicenvironment.slack.com" passHref>
           <a target="_blank" rel="noopener noreferrer">
-            <FaSlack className="h-6 w-6 fill-white hover:fill-orange hover:cursor-pointer" />
+            <FaSlack className="h-6 w-6 fill-slate-50 hover:fill-orange hover:cursor-pointer" />
           </a>
         </Link>
       </div>
