@@ -13,7 +13,6 @@ export const Logo = ({ src, className }: BaseLogoProps) => {
         layout="fill"
         src={`/images/${src}`}
         alt={""}
-        loading="lazy"
         decoding="async"
         priority
       />
