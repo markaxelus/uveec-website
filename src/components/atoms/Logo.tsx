@@ -9,7 +9,14 @@ interface BaseLogoProps {
 export const Logo = ({ src, className }: BaseLogoProps) => {
   return (
     <div className={classNames(className, "relative")}>
-      <Image layout="fill" src={`/images/${src}`} alt={""} priority />
+      <Image
+        layout="fill"
+        src={`/images/${src}`}
+        alt={""}
+        loading="lazy"
+        decoding="async"
+        priority
+      />
     </div>
   );
 };

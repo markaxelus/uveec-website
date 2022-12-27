@@ -51,6 +51,8 @@ const Home: NextPage = () => {
                       layout="fill"
                       src="/images/user.png"
                       alt={""}
+                      loading="lazy"
+                      decoding="async"
                       priority
                     />
                   </div>
@@ -72,6 +74,8 @@ const Home: NextPage = () => {
                     layout="fill"
                     src="/images/united.png"
                     alt={""}
+                    loading="lazy"
+                    decoding="async"
                     priority
                   />
                 </div>
@@ -148,6 +152,8 @@ const Home: NextPage = () => {
                             src="/images/manufacturing2.jpg"
                             className="object-cover"
                             alt={""}
+                            loading="lazy"
+                            decoding="async"
                             priority
                           />
                         </div>
@@ -161,6 +167,8 @@ const Home: NextPage = () => {
                         src="/images/team.JPG"
                         className="object-cover"
                         alt={""}
+                        loading="lazy"
+                        decoding="async"
                         priority
                       />
                     </div>
@@ -176,6 +184,8 @@ const Home: NextPage = () => {
                     layout="fill"
                     src="/images/medal.png"
                     alt={""}
+                    loading="lazy"
+                    decoding="async"
                     priority
                   />
                 </div>
@@ -235,6 +245,8 @@ const Home: NextPage = () => {
                           height={88}
                           width={66}
                           alt={""}
+                          loading="lazy"
+                          decoding="async"
                           priority
                         />
                         <div className="min-w-0 relative flex-auto">
@@ -247,6 +259,8 @@ const Home: NextPage = () => {
                               width={85}
                               src="/images/reedpope.png"
                               alt={""}
+                              loading="lazy"
+                              decoding="async"
                               priority
                             />
                           </div>
@@ -256,6 +270,8 @@ const Home: NextPage = () => {
                               width={85}
                               src="/images/reedpope-dark.png"
                               alt={""}
+                              loading="lazy"
+                              decoding="async"
                               priority
                             />
                           </div>
@@ -273,6 +289,8 @@ const Home: NextPage = () => {
                         src="/images/awarding.jpg"
                         className="object-cover"
                         alt={""}
+                        loading="lazy"
+                        decoding="async"
                         priority
                       />
                     </div>
