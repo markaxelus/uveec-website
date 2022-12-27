@@ -114,7 +114,8 @@ const About: NextPage = () => {
                   Software
                 </h2>
                 <p className="text-slate-400 mt-4 max-w-3xl space-y-6">
-                  {medium_lorem}
+                  The software subsystem is in-charge of high-level programming,
+                  data analysis, User Experience (UX), and cloud computing.
                 </p>
                 <div className=" flex flex-col md:flex-row">
                   <ProfileCard
