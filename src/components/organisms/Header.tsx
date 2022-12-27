@@ -12,7 +12,6 @@ export const Header = () => {
             layout="fill"
             src="/images/uveec.png"
             alt={""}
-            loading="lazy"
             decoding="async"
             priority
           />

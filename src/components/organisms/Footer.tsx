@@ -13,7 +13,6 @@ export const Footer = () => {
               layout="fill"
               src="/images/uveec2.png"
               alt={""}
-              loading="lazy"
               decoding="async"
               priority
             />

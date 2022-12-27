@@ -17,7 +17,6 @@ export const HeroBanner = () => {
           src="/images/hero2.jpg"
           className="object-cover"
           alt={""}
-          loading="lazy"
           decoding="async"
           priority
         />
