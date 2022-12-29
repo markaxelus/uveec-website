@@ -126,7 +126,7 @@ export const SponsorMapDark = [
     link: "https://bluerobotics.com/",
   },
   {
-    img: "/images/digikey-dark.png",
+    img: "/images/digikey_logo_white.webp",
     title: "DigiKey",
     link: "https://www.digikey.ca/",
   },

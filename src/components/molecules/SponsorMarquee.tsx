@@ -27,7 +27,10 @@ export const SponsorMarquee = () => {
         <Logo src="altium-dark.png" className="h-10 w-48 hidden dark:flex" />
         <Logo src="pcbway-dark.png" className="h-10 w-48 hidden dark:flex" />
         <Logo src="rainhouse-dark.png" className="h-12 w-52 hidden dark:flex" />
-        <Logo src="digikey-dark.png" className="h-14 w-28 hidden dark:flex" />
+        <Logo
+          src="digikey_logo_white.webp"
+          className="h-14 w-28 hidden dark:flex"
+        />
         <Logo
           src="maximumprototyping-dark.png"
           className="h-12 w-52 hidden dark-flex"
