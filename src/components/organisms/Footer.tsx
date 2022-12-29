@@ -11,7 +11,7 @@ export const Footer = () => {
           <a className="relative h-16 w-36 mb-20 top-16 hover:cursor-pointer">
             <Image
               layout="fill"
-              src="/images/uveec2.png"
+              src="/images/favicon.png"
               alt={""}
               decoding="async"
               priority
