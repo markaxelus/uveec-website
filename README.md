@@ -1,6 +1,6 @@
 <a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/stargazers"><img src="https://img.shields.io/github/stars/UVic-Environmental-Engineering-Club/uveec-website" alt="Stars Badge"/></a>
 <a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/network/members"><img src="https://img.shields.io/github/forks/UVic-Environmental-Engineering-Club/uveec-website" alt="Forks Badge"/></a>
-<a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/pulls"><img src="https://img.shields.io/github/issues-pr/UVic-Environmental-Engineering-Club/uveec-website" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/pulls"><img src="https://img.shields.io/github/issues-pr/UVic-Environmental-Engineering-Club/uveec-website?color=yellow" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/issues"><img src="https://img.shields.io/github/issues/UVic-Environmental-Engineering-Club/uveec-website" alt="Issues Badge"/></a>
 <a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/UVic-Environmental-Engineering-Club/uveec-website?color=2b9348"/></a>
 
