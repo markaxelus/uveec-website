@@ -1,8 +1,8 @@
-[![GitHub stars](https://badgen.net/github/stars/UVic-Environmental-Engineering-Club/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/stargazers/)
-[![GitHub forks](https://badgen.net/github/forks/UVic-Environmental-Engineering-Club/Strapdown.js/)](https://GitHub.com/Naereen/StrapDown.js/network/)
-<a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/pulls"><img src="https://img.shields.io/github/issues-pr/UVic-Environmental-Engineering-Club/awesome-github-profile-readme" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/issues"><img src="https://img.shields.io/github/issues/UVic-Environmental-Engineering-Club/awesome-github-profile-readme" alt="Issues Badge"/></a>
-<a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/UVic-Environmental-Engineering-Club/awesome-github-profile-readme?color=2b9348"/></a>
+<a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/stargazers"><img src="https://img.shields.io/github/stars/abhisheknaiidu/awesome-github-profile-readme" alt="Stars Badge"/></a>
+<a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/network/members"><img src="https://img.shields.io/github/forks/abhisheknaiidu/awesome-github-profile-readme" alt="Forks Badge"/></a>
+<a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/pulls"><img src="https://img.shields.io/github/issues-pr/abhisheknaiidu/awesome-github-profile-readme" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/issues"><img src="https://img.shields.io/github/issues/abhisheknaiidu/awesome-github-profile-readme" alt="Issues Badge"/></a>
+<a href="https://github.com/UVic-Environmental-Engineering-Club/uveec-website/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/abhisheknaiidu/awesome-github-profile-readme?color=2b9348"/></a>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
