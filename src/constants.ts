@@ -181,3 +181,10 @@ export const SponsorMapDark = [
     link: "https://www.uvic.ca/",
   },
 ];
+
+export const CarouselMap = [
+  { src: "/images/gps.jpg" },
+  {
+    src: "/images/Driving Alg v3.jpg",
+  },
+];
