@@ -1,8 +1,9 @@
 import type { NextPage } from "next";
-import { medium_lorem } from "../src/constants";
+import { medium_lorem, CarouselMap } from "../src/constants";
 import { BaseLayout } from "../src/Layout/BaseLayout";
 import Image from "next/image";
 import { ProfileCard } from "../src/components/molecules";
+import { Carousel } from "../src/components/molecules/Carousel";
 
 const About: NextPage = () => {
   return (
@@ -46,7 +47,7 @@ const About: NextPage = () => {
           </section>
 
           <section id="special project">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row space-y-10 md:space-x-10">
               <div className="flex flex-col">
                 <h2 className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
                   Special Project
@@ -63,11 +64,12 @@ const About: NextPage = () => {
                   </div>
                 </div>
               </div>
+              <Carousel slides={CarouselMap} />
             </div>
           </section>
 
           <section id="mechanical">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row space-y-10 md:space-x-10">
               <div className="flex flex-col">
                 <h2 className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
                   Mechanical
@@ -83,12 +85,12 @@ const About: NextPage = () => {
                   <ProfileCard name="Eli Grant" position="Co-Lead" />
                 </div>
               </div>
-              <div className="h-full w-full md:w-80"></div>
+              <Carousel slides={CarouselMap} />
             </div>
           </section>
 
           <section id="electrical">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row space-y-10 md:space-x-10">
               <div className="flex flex-col">
                 <h2 className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
                   Electrical
@@ -103,12 +105,12 @@ const About: NextPage = () => {
                   />
                 </div>
               </div>
-              <div className="h-full w-full md:w-80"></div>
+              <Carousel slides={CarouselMap} />
             </div>
           </section>
 
           <section id="software">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row space-y-10 md:space-x-10">
               <div className="flex flex-col">
                 <h2 className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
                   Software
@@ -124,7 +126,7 @@ const About: NextPage = () => {
                   />
                 </div>
               </div>
-              <div className="h-full w-full md:w-80"></div>
+              <Carousel slides={CarouselMap} />
             </div>
           </section>
 

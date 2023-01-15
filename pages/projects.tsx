@@ -11,7 +11,7 @@ const Projects: NextPage = () => {
       <main>
         <div className="pt-20 mb-20 space-y-20 overflow-hidden sm:pt-32 sm:mb-32 sm:space-y-32 md:pt-40 md:mb-40 md:space-y-40">
           <section id="usv">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row items-center">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row items-center space-y-10 md:space-x-10">
               <div className="flex flex-col">
                 <h2 className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
                   Unmanned Surface Vehicle
@@ -43,7 +43,7 @@ const Projects: NextPage = () => {
                     </div>
                   </div>
                   <div className="flex flex-row items-center">
-                    <h2 className="mr-1">Marine Propulsion</h2>
+                    <h2 className="mr-1">Propulsion</h2>
                     <div>
                       <FaInfoCircle
                         data-tip="Motor:<br /> Sprint speed: <br /> Cruise speed:"
