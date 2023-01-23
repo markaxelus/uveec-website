@@ -39,9 +39,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## What we use
+## What we used
 
-[<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007acc?style=flat-square&logo=typescript&logoColor=white" />](https://www.typescriptlang.org) [<img alt="Next.js" src="https://img.shields.io/badge/-Next.js-black?style=flat-square&logo=next.js&logoColor=white" />](https://nextjs.org) [<img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind_CSS-%2338B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />](https://tailwindcss.com) [<img alt="Yarn" src="https://img.shields.io/badge/-Yarn-%232C8EBB?style=flat-square&logo=yarn&logoColor=white" />](https://yarnpkg.com) [<img alt="ESLint" src="https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white" />](https://eslint.org/) [<img alt="Git" src="https://img.shields.io/badge/-Git-%23F05033?style=flat-square&logo=git&logoColor=white" />](https://git-scm.com)
+[<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007acc?style=flat-square&logo=typescript&logoColor=white" />](https://www.typescriptlang.org) [<img alt="Next.js" src="https://img.shields.io/badge/-Next.js-black?style=flat-square&logo=next.js&logoColor=white" />](https://nextjs.org) [<img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind_CSS-%2338B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />](https://tailwindcss.com) [<img alt="Yarn" src="https://img.shields.io/badge/-Yarn-%232C8EBB?style=flat-square&logo=yarn&logoColor=white" />](https://yarnpkg.com) [<img alt="Git" src="https://img.shields.io/badge/-Git-%23F05033?style=flat-square&logo=git&logoColor=white" />](https://git-scm.com)
 
 ---
 
