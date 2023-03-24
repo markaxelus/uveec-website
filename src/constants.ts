@@ -182,6 +182,8 @@ export const SponsorMapDark = [
   },
 ];
 
+// Each CarouselMap deals with each Carousel collections in pages. Mind name of file extension.
+
 export const CarouselMap = [
   { src: "/images/gps.jpg" },
   { src: "/images/Driving Alg v3.jpg" },
