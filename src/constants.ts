@@ -199,8 +199,8 @@ export const CarouselMapMechanical = [
 ];
 
 export const CarouselMapElectrical = [
-  { src: "/images/carousel/electrical1.png" },
-  { src: "/images/carousel/electrical2.png" },
+  { src: "/images/carousel/electrical1.PNG" },
+  { src: "/images/carousel/electrical2.PNG" },
 ];
 
 export const CarouselMapSoftware = [
