@@ -11,7 +11,7 @@ interface ProfileCardProps {
 // Somebody please use Image instead of img. -David
 
 export const ProfileCard = ({ name, position }: ProfileCardProps) => {
-    const imgPath = "/images/profilecard" + name + ".jpg";
+    const imgPath = "/images/profilecard/" + name + ".jpg";
   return (
     <div className="flex flex-col pt-4 items-center">
           <div className="h-52 w-52 rounded-xl">
