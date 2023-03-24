@@ -188,3 +188,40 @@ export const CarouselMap = [
     src: "/images/Driving Alg v3.jpg",
   },
 ];
+
+export const CarouselMapSpecialProject = [
+  { src: "/images/carousel/specialproject1.png" },
+  {
+    src: "/images/carousel/specialproject2.png",
+  },
+  {
+    src: "/images/carousel/specialproject3.png",
+  },
+];
+
+export const CarouselMapMechanical = [
+  { src: "/images/carousel/mechanical1.jpg" },
+  {
+    src: "/images/carousel/mechanical2.jpg",
+  },
+];
+
+export const CarouselMapElectrical = [
+  { src: "/images/carousel/electrical1.png" },
+  {
+    src: "/images/carousel/electrical2.png",
+  },
+];
+
+export const CarouselMapSoftware = [
+  { src: "/images/carousel/software1.png" },
+  {
+    src: "/images/carousel/software2.png",
+  },
+];
+
+export const CarouselMapProject = [
+  { src: "/images/carousel/boat1.jpg" },
+  { src: "/images/carousel/boat2.jpg" },
+  { src: "/images/carousel/boat3.jpg" },
+];

@@ -19,7 +19,7 @@ export const Footer = () => {
           </a>
         </Link>
         <div className="space-y-2 flex flex-col text-center md:text-start">
-          <h2 className="text-slate-50 font-bold mb-4">Product</h2>
+          <h2 className="text-slate-50 font-bold mb-4">Project</h2>
           <Link href="/projects/#usv" passHref>
             <a className="text-slate-50 hover:text-orange hover:cursor-pointer">
               Unmanned Surface Vehicle

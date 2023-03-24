@@ -1,15 +1,16 @@
 import type { NextPage } from "next";
 import { BaseLayout } from "../src/Layout/BaseLayout";
-import { medium_lorem } from "../src/constants";
 import ReactTooltip from "react-tooltip";
 import { FaInfoCircle } from "react-icons/fa";
 import Image from "next/image";
+import { Carousel } from "../src/components/molecules/Carousel";
+import { medium_lorem, CarouselMapProject } from "../src/constants";
 
 const Projects: NextPage = () => {
   return (
     <BaseLayout>
       <main>
-        <div className="pt-20 mb-20 space-y-20 overflow-hidden sm:pt-32 sm:mb-32 sm:space-y-32 md:pt-40 md:mb-40 md:space-y-40">
+        <div className="pt-20 mb-20 space-y-20 overflow-visible sm:pt-32 sm:mb-32 sm:space-y-32 md:pt-40 md:mb-40 md:space-y-40">
           <section id="usv">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row items-center space-y-10 md:space-x-10">
               <div className="flex flex-col">
@@ -35,29 +36,7 @@ const Projects: NextPage = () => {
                     <h2 className="mr-1">Dimension</h2>
                     <div>
                       <FaInfoCircle
-                        data-tip="Length:<br />Diameter:<br />"
-                        className="h-5 w-5 hover:cursor-pointer"
-                        data-html={true}
-                      />
-                      <ReactTooltip place="right" type="info" effect="solid" />
-                    </div>
-                  </div>
-                  <div className="flex flex-row items-center">
-                    <h2 className="mr-1">Propulsion</h2>
-                    <div>
-                      <FaInfoCircle
-                        data-tip="Motor:<br /> Sprint speed: <br /> Cruise speed:"
-                        className="h-5 w-5 hover:cursor-pointer"
-                        data-html={true}
-                      />
-                      <ReactTooltip place="right" type="info" effect="solid" />
-                    </div>
-                  </div>
-                  <div className="flex flex-row items-center">
-                    <h2 className="mr-1">Performance</h2>
-                    <div>
-                      <FaInfoCircle
-                        data-tip="Filtration:"
+                        data-tip="Length: 5 ft<br />Diameter: 2 ft"
                         className="h-5 w-5 hover:cursor-pointer"
                         data-html={true}
                       />
@@ -66,14 +45,7 @@ const Projects: NextPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="relative h-96 w-full md:w-96 mt-10 md:mt-0">
-                <Image
-                  layout="fill"
-                  src="/images/usv.png"
-                  className="object-cover rounded-xl"
-                  alt={""}
-                />
-              </div>
+              <Carousel slides={CarouselMapProject} />
             </div>
           </section>
         </div>

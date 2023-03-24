@@ -4,9 +4,10 @@ import classNames from "classnames";
 interface BaseLogoProps {
   src: string;
   className?: string;
+  classNameImage?: string;
 }
 
-export const Logo = ({ src, className }: BaseLogoProps) => {
+export const Logo = ({ src, className, classNameImage }: BaseLogoProps) => {
   return (
     <div className={classNames(className, "relative")}>
       <Image
@@ -14,6 +15,7 @@ export const Logo = ({ src, className }: BaseLogoProps) => {
         src={`/images/${src}`}
         alt={""}
         decoding="async"
+        className={classNameImage}
         priority
       />
     </div>
