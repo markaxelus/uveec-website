@@ -45,7 +45,7 @@ const About: NextPage = () => {
                                 <div className="space-x-6">
                                     <ul className="list-disc text-slate-400 mt-4 max-w-3xl space-y-6">
                                         <li>Julia is a third year civil engineering student who is passionate about using engineering tools to address sustainability and waste reduction issues. She currently has a co-op in the MiNa lab at UVic researching microplastic detection methods, and has in the past written proposals and reports promoting environmental conservation and sustainability</li>
-                                        <li>Julia&apos;s roles are mainly finances and administration, and she tried to be active on the filteration/special projects subsystem team as well</li>
+                                        <li>Julia's roles are mainly finances and administration, and she tried to be active on the filteration/special projects subsystem team as well</li>
                                     </ul>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@ const About: NextPage = () => {
                                     Electrical
                                 </h2>
                                 <p className="text-slate-400 mt-4 max-w-3xl space-y-6">
-                                    The electrical team&apos;s role in this project can be divided into two main categories: hardware and firmware. The hardware side of the team is responsible for power management and distribution, which includes assembling the battery and its management system, designing the system that monitors output currents, and creating waterproof connections to deliver power where it&apos;s needed on the boat. The firmware team focuses on connecting sensor data and the software team&apos;s autonomous driving. This includes parsing data from all the boat&apos;s sensors and communicating with a Raspberry Pi, as well as controlling the motor and rudder as per instructions received from the Pi. The firmware team has also facilitated a first person camera and radio control override as a backup to the Pi. 
+                                    The electrical team's role in this project can be divided into two main categories: hardware and firmware. The hardware side of the team is responsible for power management and distribution, which includes assembling the battery and its management system, designing the system that monitors output currents, and creating waterproof connections to deliver power where it's needed on the boat. The firmware team focuses on connecting sensor data and the software team's autonomous driving. This includes parsing data from all the boat's sensors and communicating with a Raspberry Pi, as well as controlling the motor and rudder as per instructions received from the Pi. The firmware team has also facilitated a first person camera and radio control override as a backup to the Pi. 
                                 </p>
                                 <div className=" flex flex-col md:flex-row">
                                     <div className="flex space-x-6">
@@ -144,7 +144,7 @@ const About: NextPage = () => {
                                         <div className="space-x-6">
                                             <ul className="list-disc text-slate-400 mt-4 max-w-3xl space-y-6">
                                                 <li>Michael is a 2nd year electrical engineering student who looks to apply his technical and team skills to advance projects related to sustainability and the fight against the deteriorating climate </li>
-                                                <li>Michael&apos;s interests extends to math, physics, and hydrogen fusion</li>
+                                                <li>Michael's interests extends to math, physics, and hydrogen fusion</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -156,7 +156,7 @@ const About: NextPage = () => {
                                         <div className="space-x-6">
                                             <ul className="list-disc text-slate-400 mt-4 max-w-3xl space-y-6">
                                                 <li>Evan is a 3rd year electrical engineering student with a passion for PCB design and microcontroller programming</li>
-                                                <li>His previous co-op positions at Urban Solar and BC Hydro have given him a solid understanding of sustainable electrical design practices, and he hopes to expand and share these concepts through UVEEC&apos;s future projects</li>
+                                                <li>His previous co-op positions at Urban Solar and BC Hydro have given him a solid understanding of sustainable electrical design practices, and he hopes to expand and share these concepts through UVEEC's future projects</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -184,8 +184,8 @@ const About: NextPage = () => {
                                     <div className="space-x-6">
                                         <ul className="list-disc text-slate-400 mt-4 max-w-3xl space-y-6">
                                             <li>Phillip is a second-year undergrad pursuing software engineering</li>
-                                            <li>He is a past junior full-stack engineer for University of Victoria&apos;s Environmental Engineering Club (UVEEC)</li>
-                                            <li>Philip&apos;s interests include: mathematics (multilinear relationship, quasilinear forms, multidimensional discrete convolution), neural networks (blind signal separation, sequential decision making)</li>
+                                            <li>He is a past junior full-stack engineer for University of Victoria's Environmental Engineering Club (UVEEC)</li>
+                                            <li>Philip's interests include: mathematics (multilinear relationship, quasilinear forms, multidimensional discrete convolution), neural networks (blind signal separation, sequential decision making)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -207,7 +207,7 @@ const About: NextPage = () => {
                                     Faculty Representative - Dr. Caterina Valeo
                                 </h2>
                                 <p className="text-slate-400 mt-4 max-w-3xl space-y-6">
-                                    Dr. Valeo has served as the club&apos;s Faculty representative at UVic since the beginning of the club in the Fall of 2021. Dr. Valeo is a professor in the faculty of mechanical engineering, and runs the Valeo Research Laboratory. Her areas of expertise include forested regions, sustainable urban development of water resources, climate change impacts and analysis using artificial neural networks, pollutant dispersion modeling in rivers and nearshore regions. Her eagerness to help, many years of research in the field, and wide range of knowledge in the marine/ environmental conservation department makes her a tremendous asset to the project. 
+                                    Dr. Valeo has served as the club's Faculty representative at UVic since the beginning of the club in the Fall of 2021. Dr. Valeo is a professor in the faculty of mechanical engineering, and runs the Valeo Research Laboratory. Her areas of expertise include forested regions, sustainable urban development of water resources, climate change impacts and analysis using artificial neural networks, pollutant dispersion modeling in rivers and nearshore regions. Her eagerness to help, many years of research in the field, and wide range of knowledge in the marine/ environmental conservation department makes her a tremendous asset to the project. 
                                 </p>
                             </div>
                         </div>
