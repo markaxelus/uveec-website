@@ -12,7 +12,7 @@ export const ProfileCard = ({ name, position }: ProfileCardProps) => {
   return (
     <div className="flex flex-col pt-4 items-center">
           <div className="h-52 w-52 rounded-xl">
-              <Image
+              <img
                   src={imgPath}
                   className="object-contain object-center h-52 w-52"
                   alt={""}
