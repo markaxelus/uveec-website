@@ -44,7 +44,7 @@ const About: NextPage = () => {
                                 </h2>
                                 <div className="space-x-6">
                                     <ul className="list-disc text-slate-400 mt-4 max-w-3xl space-y-6">
-                                        <li>Julia is a third year civil engineering student who is passionate about using engineering tools to address sustainability and waste reduction issues. She currently has a co-op in the MiNa lab at UVic researching microplastic detection methods, and has in the past written proposals and reports promoting environmental conservation and sustainability</li>
+                                        <li>Julia is a third year civil engineering student who is passionate about using engineering tools to address sustainability and waste reduction issues. At a past co-op she worked at at UVic&apos;s MiNa Lab researching microplastic detection techniques and has written proposals and reports promoting environmental conservation and sustainability.</li>
                                         <li>Julia&apos;s roles are mainly finances and administration, and she tried to be active on the filteration/special projects subsystem team as well</li>
                                     </ul>
                                 </div>
