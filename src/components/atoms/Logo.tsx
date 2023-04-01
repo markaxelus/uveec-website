@@ -4,9 +4,14 @@ import classNames from "classnames";
 interface BaseLogoProps {
   src: string;
   className?: string;
+  classNameImage?: string;
 }
 
-export const Logo = ({ src, className }: BaseLogoProps) => {
+// Logo is used for building Marquee.
+// className is to style div container of image.
+// classNameImage is to style image itself. object-contain is used for SponsorMarquee. object-cover is used for IndexMarquee.
+
+export const Logo = ({ src, className, classNameImage }: BaseLogoProps) => {
   return (
     <div className={classNames(className, "relative")}>
       <Image
@@ -14,6 +19,7 @@ export const Logo = ({ src, className }: BaseLogoProps) => {
         src={`/images/${src}`}
         alt={""}
         decoding="async"
+        className={classNameImage}
         priority
       />
     </div>
