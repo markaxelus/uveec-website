@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CompanyName } from "../../constants";
-import { FaInstagram, FaLinkedin, FaGithub, FaSlack } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaGithub, FaDiscord } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -89,9 +89,9 @@ export const Footer = () => {
                 <FaGithub className="h-11 w-11 p-2 fill-slate-50 hover:fill-orange hover:cursor-pointer" />
               </a>
             </Link>
-            <Link href="https://uvicenvironment.slack.com" passHref>
+            <Link href="https://discord.gg/SF6sRAQEuv" passHref>
               <a target="_blank" rel="noopener noreferrer">
-                <FaSlack className="h-11 w-11 p-2 fill-slate-50 hover:fill-orange hover:cursor-pointer" />
+                <FaDiscord className="h-11 w-11 p-2 fill-slate-50 hover:fill-orange hover:cursor-pointer" />
               </a>
             </Link>
           </div>

@@ -5,7 +5,6 @@ import type { NextPage } from "next";
 import {
   HeroBanner,
   SponsorMarquee,
-  IndexMarquee,
 } from "../src/components/molecules";
 import { BaseLayout } from "../src/Layout/BaseLayout";
 import { FaAngleRight } from "react-icons/fa";
