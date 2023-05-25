@@ -141,7 +141,7 @@ const Home: NextPage = () => {
               UVEEC: Where Greatness Unfolds, Beyond the Boundaries of Competition.
                 </p>
                 <p className="mt-4 pb-4 max-w-3xl text-slate-400 space-y-6 ">
-                At UVEEC, we believe that greatness isn't solely defined by competitions and winning titles. While we may not be a traditional competition club, our passion for excellence remains unwavering. Our focus extends beyond the confines of rivalry, as we strive to cultivate an environment where every member can explore their potential, discover new horizons, and achieve personal growth.
+                At UVEEC, we believe that greatness isn&apos;t solely defined by competitions and winning titles. While we may not be a traditional competition club, our passion for excellence remains unwavering. Our focus extends beyond the confines of rivalry, as we strive to cultivate an environment where every member can explore their potential, discover new horizons, and achieve personal growth.
                 </p>
               </div>
               <div className="relative pt-10 xl:pt-0 mt-10 xl:mt-2">
