@@ -32,7 +32,12 @@ const About: NextPage = () => {
         Team Structure
       </h1>
       <div className="flex justify-center">
-        <Image height={500} width={850} src={"/images/team_structure.png"} />
+        <Image
+          height={500}
+          width={850}
+          src={"/images/team_structure.png"}
+          alt={""}
+        />
       </div>
 
       <section className="my-16" id="subteams">
