@@ -8,7 +8,7 @@ export const TeamMap = [
   },
   {
     name: "Noah Wessels",
-    position: "Project Manager",
+    position: "Team Lead",
   },
   {
     name: "Philip Esclamado",
