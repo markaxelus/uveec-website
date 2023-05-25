@@ -39,10 +39,13 @@ const About: NextPage = () => {
         <div className="relative bg-slate-100 h-[785px] md:h-56 w-full">
           <div className="grid md:gap-8 lg:grid-cols-4 md:grid-cols-2 justify-items-center mx-auto px-4">
             {SubteamMap.map((card, i) => (
-              <div className="flex flex-col pt-4 items-center">
-                <Image height={50} width={50} src={card.img} alt={""} />
-                <h1>{card.name}</h1>
-                <div className="text-slate-400 mt-0.5 text-sm leading-6 text-center">
+              <div className="flex flex-col pt-4 items-center" key={i}>
+                <Image height={50} width={50} src={card.img} alt={""} key={i} />
+                <h1 key={i}>{card.name}</h1>
+                <div
+                  className="text-slate-400 mt-0.5 text-sm leading-6 text-center"
+                  key={i}
+                >
                   {card.description}
                 </div>
               </div>
