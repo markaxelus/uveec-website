@@ -2,9 +2,12 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import type { NextPage } from "next";
-import { HeroBanner, SponsorMarquee, IndexMarquee } from "../src/components/molecules";
+import {
+  HeroBanner,
+  SponsorMarquee,
+  IndexMarquee,
+} from "../src/components/molecules";
 import { BaseLayout } from "../src/Layout/BaseLayout";
-import { medium_lorem, short_lorem } from "../src/constants";
 import { FaAngleRight } from "react-icons/fa";
 
 const Home: NextPage = () => {
@@ -22,7 +25,7 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="keywords"
-          content="UVEEC, UVic Environmental Engineering, Environmental Engineering, Environment, Engineering, Microplastics, University of Victoria, Victoria"
+          content="UVEEC, UVic Environmental Engineering, Environmental Engineering, Environment, Engineering, University of Victoria, Victoria"
         />
         <meta
           property="og:title"
@@ -37,20 +40,9 @@ const Home: NextPage = () => {
         <SponsorMarquee />
         <main>
           <div className="pt-20 mb-20 space-y-20 overflow-hidden sm:pt-32 sm:mb-32 sm:space-y-32 md:pt-40 md:mb-40 md:space-y-40">
+            
             <section id="team">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-                <div className="relative h-16 w-16">
-                  <Image
-                    layout="fill"
-                    src="/images/united.png"
-                    alt={""}
-                    decoding="async"
-                    priority
-                  />
-                </div>
-                <h2 className="mt-8 font-semibold text-sky-500 dark:text-sky-400">
-                  Teamwork
-                </h2>
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8"> 
                 <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
                   One of our club&apos;s main goals is to give student hands-on
                   engineering experience outside of their regular class work.
@@ -69,25 +61,88 @@ const Home: NextPage = () => {
                   </a>
                 </Link>
               </div>
-              <IndexMarquee />
+              <div className="relative pt-10 xl:pt-0 mt-10 xl:mt-2">
+                <div className="absolute h-96 w-full bg-gradient-to-b from-sky-500 via-slate-100 to-white opacity-10 dark:to-slate-900">
+                  <svg
+                    width="100%"
+                    height="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs>
+                      <pattern
+                        id="smallGrid"
+                        width="8"
+                        height="8"
+                        patternUnits="userSpaceOnUse"
+                      >
+                        <path
+                          d="M 8 0 L 0 0 0 8"
+                          fill="none"
+                          stroke="gray"
+                          strokeWidth="0.5"
+                        />
+                      </pattern>
+                      <pattern
+                        id="grid"
+                        width="80"
+                        height="80"
+                        patternUnits="userSpaceOnUse"
+                      >
+                        <rect width="80" height="80" fill="url(#smallGrid)" />
+                        <path
+                          d="M 80 0 L 0 0 0 80"
+                          fill="none"
+                          stroke="gray"
+                          strokeWidth="1"
+                        />
+                      </pattern>
+                    </defs>
+
+                    <rect width="100%" height="100%" fill="url(#grid)" />
+                  </svg>
+                </div>
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                  <div className="lg:col-span-5 xl:col-span-6 flex flex-col">
+                    <div className="relative z-10 bg-white ring-1 ring-slate-900/5 rounded-lg shadow-xl px-6 py-5 my-auto xl:mt-18 dark:bg-slate-800">
+                      <div className="absolute inset-x-0 inset-y-5 border-t border-b border-slate-100 pointer-events-none dark:border-slate-700" />
+                      <div className="absolute inset-x-6 inset-y-0 border-l border-r border-slate-100 pointer-events-none dark:border-slate-700" />
+                      <div className="bg-slate-50 overflow-hidden py-6 sm:py-9 lg:py-6 xl:py-9 px-6 dark:bg-slate-900/50">
+                        <div className="relative h-96">
+                          <Image
+                            layout="fill"
+                            src="/images/manufacturing2.jpg"
+                            className="object-cover"
+                            alt={""}
+                            decoding="async"
+                            priority
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mt-4 -mx-4 sm:mx-0 lg:mt-0 lg:col-span-7 xl:col-span-6">
+                    <div className="relative overflow-hidden shadow-xl flex h-[31.625rem] max-h-[60vh] sm:max-h-[none] sm:rounded-xl lg:h-[34.6875rem] xl:h-[31.625rem]">
+                      <Image
+                        layout="fill"
+                        src="/images/manufacturing1.jpg"
+                        className="object-cover"
+                        alt={""}
+                        decoding="async"
+                        priority
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
 
             <section id="awards">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-                <div className="relative h-16 w-16">
-                  <Image
-                    layout="fill"
-                    src="/images/medal.png"
-                    alt={""}
-                    decoding="async"
-                    priority
-                  />
-                </div>
-                <h2 className="mt-8 font-semibold text-indigo-500">
-                  Excellence
-                </h2>
-                <p className="mt-4 md:mb-10 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
-                  Awards
+              <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
+              UVEEC: Where Greatness Unfolds, Beyond the Boundaries of Competition.
+                </p>
+                <p className="mt-4 pb-4 max-w-3xl text-slate-400 space-y-6 ">
+                At UVEEC, we believe that greatness isn't solely defined by competitions and winning titles. While we may not be a traditional competition club, our passion for excellence remains unwavering. Our focus extends beyond the confines of rivalry, as we strive to cultivate an environment where every member can explore their potential, discover new horizons, and achieve personal growth.
                 </p>
               </div>
               <div className="relative pt-10 xl:pt-0 mt-10 xl:mt-2">
