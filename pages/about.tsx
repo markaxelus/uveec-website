@@ -46,7 +46,9 @@ const About: NextPage = () => {
             {SubteamMap.map((card, i) => (
               <div className="flex flex-col pt-4 items-center" key={i}>
                 <Image height={50} width={50} src={card.img} alt={""} key={i} />
-                <h1 key={i}>{card.name}</h1>
+                <h1 className="dark:text-royalBlue" key={i}>
+                  {card.name}
+                </h1>
                 <div
                   className="text-slate-400 mt-0.5 text-sm leading-6 text-center"
                   key={i}
