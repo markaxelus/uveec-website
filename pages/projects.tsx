@@ -2,9 +2,8 @@ import type { NextPage } from "next";
 import { BaseLayout } from "../src/Layout/BaseLayout";
 import ReactTooltip from "react-tooltip";
 import { FaInfoCircle } from "react-icons/fa";
-import Image from "next/image";
 import { Carousel } from "../src/components/molecules/Carousel";
-import { medium_lorem, CarouselMapProject } from "../src/constants";
+import { CarouselMapProject } from "../src/constants";
 
 const Projects: NextPage = () => {
   return (
