@@ -1,34 +1,90 @@
 export const CompanyName =
   "University of Victoria Environmental Engineering Club";
 
-export const short_lorem =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum posuere nibh id vestibulum.";
+export const TeamMap = [
+  {
+    name: "Johanna Schales",
+    position: "Team Lead",
+  },
+  {
+    name: "Noah Wessels",
+    position: "Project Manager",
+  },
+  {
+    name: "Philip Esclamado",
+    position: "Lead Engineer",
+  },
+  {
+    name: "Kyungwan Kim",
+    position: "Finance Manager",
+  },
+  { name: "Ryan Wright", position: "Mechanical Lead" },
+  {
+    name: "Mariana Latta Suazo",
+    position: "Mechanical Lead",
+  },
+  {
+    name: "Michael Nicolaisen",
+    position: "Electrical Lead",
+  },
+  {
+    name: "Sian Friesen",
+    position: "Electrical Lead",
+  },
+  {
+    name: "David Kim",
+    position: "Software Lead",
+  },
+  {
+    name: "Steve Anil John",
+    position: "Software Lead",
+  },
+];
 
-export const medium_lorem =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus aliquet accumsan. Sed ac tellus vel purus condimentum vestibulum. Nunc sodales leo eget diam consectetur, vel eleifend turpis imperdiet. Cras mattis fringilla euismod.";
-
-export const OurGoalsParagraphs = [
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, tortor vitae accumsan elementum, lorem augue molestie sem, eu pretium lacus urna et augue. ",
-  "Praesent porta nunc in lorem iaculis aliquam. Sed eu maximus enim. Donec tempus neque sit amet lectus consectetur, ut sagittis tortor congue. Quisque ultrices a elit varius posuere. Mauris accumsan enim odio, eu dictum felis porttitor non. Aenean feugiat ligula id imperdiet ullamcorper. Suspendisse nec eros vitae arcu suscipit maximus. Ut pretium feugiat eleifend. Etiam ut erat placerat, posuere nisi non, sodales risus.",
+export const SubteamMap = [
+  {
+    name: "Mechanical",
+    description:
+      "The mechanical team is responsible for designing and manufacturing the mechanical components of the project. This includes the frame, thrusters, and any other mechanical components.",
+    img: "/images/subteam/mechanical.png",
+  },
+  {
+    name: "Electrical",
+    description:
+      "The electrical team is responsible for designing and manufacturing the electrical components of the project. This includes the power distribution, control systems, and any other electrical components.",
+    img: "/images/subteam/electrical.png",
+  },
+  {
+    name: "Software",
+    description:
+      "The software team is responsible for designing and implementing the software components of the project. This includes the control systems, user interface, and any other software components.",
+    img: "/images/subteam/software.png",
+  },
+  {
+    name: "Ocean Science",
+    description:
+      "The ocean science team is responsible for designing and implementing the ocean science components of the project. This includes the sensors, data collection, and any other ocean science components.",
+    img: "/images/subteam/whale.png",
+  },
 ];
 
 export const ContactsMap = [
   {
-    img: "/images/social-media.png",
+    img: "/images/contacts/bullhorn.png",
     title: "Instagram",
     button: "Follow",
     passage: "Follow UVEEC on Instagram for news & updates",
     link: "https://www.instagram.com/uvicenvironment/?hl=en",
   },
   {
-    img: "/images/conversation.png",
-    title: "Slack",
+    img: "/images/contacts/conversation.png",
+    title: "Discord",
     button: "Join",
     passage: "Join the discussion with other members.",
     link: "https://uvicenvironment.slack.com",
   },
   {
-    img: "/images/message.png",
+    img: "/images/contacts/message.png",
     title: "Contact",
     button: "Message",
     passage: "Send us a private message to get in touch.",
@@ -183,32 +239,6 @@ export const SponsorMapDark = [
 ];
 
 // Each CarouselMap deals with each Carousel collections in pages. Mind name of file extension.
-
-export const CarouselMap = [
-  { src: "/images/gps.jpg" },
-  { src: "/images/Driving Alg v3.jpg" },
-];
-
-export const CarouselMapSpecialProject = [
-  { src: "/images/carousel/specialproject1.png" },
-  { src: "/images/carousel/specialproject2.png" },
-  { src: "/images/carousel/specialproject3.png" },
-];
-
-export const CarouselMapMechanical = [
-  { src: "/images/carousel/mechanical1.jpg" },
-  { src: "/images/carousel/mechanical2.jpg" },
-];
-
-export const CarouselMapElectrical = [
-  { src: "/images/carousel/electrical1.PNG" },
-  { src: "/images/carousel/electrical2.PNG" },
-];
-
-export const CarouselMapSoftware = [
-  { src: "/images/carousel/software1.png" },
-  { src: "/images/carousel/software2.png" },
-];
 
 export const CarouselMapProject = [
   { src: "/images/carousel/boat1.jpg" },

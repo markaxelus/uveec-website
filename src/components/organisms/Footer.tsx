@@ -29,18 +29,8 @@ export const Footer = () => {
 
         <div className="space-y-2 flex flex-col text-center md:text-start">
           <h2 className="text-slate-50 font-bold mb-4">Information</h2>
-          <Link href="/about" passHref>
-            <a className="text-slate-50 hover:text-orange hover:cursor-pointer">
-              About Us
-            </a>
-          </Link>
-          <Link href="/about/#team" passHref>
-            <a className="text-slate-50 hover:text-orange hover:cursor-pointer">
-              Meet the Team
-            </a>
-          </Link>
           <Link
-            href="https://www.uvic.ca/ecs/mechanical/faculty-and-staff/faculty/profiles/valeo-caterina.php"
+            href="http://web.uvic.ca/~valeo/"
             passHref
           >
             <a
@@ -49,14 +39,6 @@ export const Footer = () => {
               className="text-slate-50 hover:text-orange hover:cursor-pointer"
             >
               Faculty Supervisor
-            </a>
-          </Link>
-          <Link
-            href="https://www.instagram.com/uvicenvironment/?hl=en"
-            passHref
-          >
-            <a className="text-slate-50 hover:text-orange hover:cursor-pointer">
-              Community Outreach
             </a>
           </Link>
         </div>
