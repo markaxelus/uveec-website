@@ -77,7 +77,7 @@ export const SponsorMarquee = () => {
         />
         <Logo
           src="solidworks.png"
-          className="h-16 w-56 dark:hidden"
+          className="h-14 w-52 dark:hidden"
           classNameImage="object-contain"
         />
         <Logo
