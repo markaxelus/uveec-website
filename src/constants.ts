@@ -154,6 +154,11 @@ export const SponsorMap = [
     link: "https://www.seaspan.com/",
   },
   {
+    img: "/images/solidworks.png",
+    title: "SolidWorks",
+    link: "https://www.solidworks.com/",
+  },
+  {
     img: "/images/teck.png",
     title: "Teck",
     link: "https://www.teck.com/",
