@@ -232,6 +232,11 @@ export const SponsorMapDark = [
     link: "https://www.seaspan.com/",
   },
   {
+    img: "/images/solidworks-dark.png",
+    title: "SolidWorks",
+    link: "https://www.solidworks.com/",
+  },
+  {
     img: "/images/teck-dark.png",
     title: "Teck",
     link: "https://www.teck.com/",
