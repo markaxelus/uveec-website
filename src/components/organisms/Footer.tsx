@@ -4,6 +4,7 @@ import { CompanyName } from "../../constants";
 import { FaInstagram, FaLinkedin, FaGithub, FaDiscord } from "react-icons/fa";
 
 export const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div>
       <div className="flex flex-col md:flex-row justify-evenly items-center md:items-baseline h-[700px] md:h-72 w-full space-y-7 md:space-y-16 bg-royalBlue ">
@@ -29,10 +30,7 @@ export const Footer = () => {
 
         <div className="space-y-2 flex flex-col text-center md:text-start">
           <h2 className="text-slate-50 font-bold mb-4">Information</h2>
-          <Link
-            href="http://web.uvic.ca/~valeo/"
-            passHref
-          >
+          <Link href="http://web.uvic.ca/~valeo/" passHref>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -81,7 +79,7 @@ export const Footer = () => {
       </div>
       <div className="h-20 md:h-14 w-full p-4 bg-[#102543]">
         <p className="text-xs text-center text-slate-50">
-          Copyright © 2022 {CompanyName}.
+          Copyright © {currentYear} {CompanyName}.
         </p>
         <p className="text-xs text-center text-slate-50">
           Designed in Victoria, British Columbia
