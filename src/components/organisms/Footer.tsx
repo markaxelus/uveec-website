@@ -26,6 +26,14 @@ export const Footer = () => {
               Unmanned Surface Vehicle
             </a>
           </Link>
+          <Link
+            href="https://docs.google.com/document/d/1068WrsZWZ_Hl5apEQwmm7ZRoZD9SaYN_WkKBdaa70NU/edit?usp=sharing"
+            passHref
+          >
+            <a className="text-slate-50 hover:text-orange hover:cursor-pointer">
+              Autonomous Underwater Glider
+            </a>
+          </Link>
         </div>
 
         <div className="space-y-2 flex flex-col text-center md:text-start">
