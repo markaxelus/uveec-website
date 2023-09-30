@@ -3,26 +3,18 @@ export const CompanyName =
 
 export const TeamMap = [
   {
-    name: "Johanna Schales",
-    position: "Team Lead",
+    name: "Philip Esclamado",
+    position: "Lead Engineer",
   },
   {
     name: "Noah Wessels",
-    position: "Team Lead",
-  },
-  {
-    name: "Philip Esclamado",
-    position: "Lead Engineer",
+    position: "Project Manager",
   },
   {
     name: "Kyung wan Kim",
     position: "Finance Manager",
   },
   { name: "Ryan Wright", position: "Mechanical Lead" },
-  {
-    name: "Mariana Latta Suazo",
-    position: "Mechanical Lead",
-  },
   {
     name: "Michael Nicolaisen",
     position: "Electrical Lead",
@@ -39,6 +31,10 @@ export const TeamMap = [
     name: "Steve Anil John",
     position: "Software Lead",
   },
+  {
+    name: "Johanna Schales",
+    position: "Oceanographic Lead",
+  },
 ];
 
 export const SubteamMap = [
@@ -51,7 +47,7 @@ export const SubteamMap = [
   {
     name: "Electrical",
     description:
-      "The electrical team is responsible for designing and manufacturing the electrical components of the project. This includes the power distribution, control systems, and any other electrical components.",
+      "The electrical team is responsible for designing and manufacturing the electrical components of the project. This includes the power distribution and any other electrical components.",
     img: "/images/subteam/electrical.png",
   },
   {
