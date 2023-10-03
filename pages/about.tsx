@@ -28,7 +28,7 @@ const About: NextPage = () => {
         </div>
       </section>
 
-      <h1 className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 text-center">
+      {/* <h1 className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 text-center">
         Team Structure
       </h1>
       <div className="flex justify-center">
@@ -59,7 +59,7 @@ const About: NextPage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <h2 className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 text-center">
         Team Leadership
