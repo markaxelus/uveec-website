@@ -3,10 +3,6 @@ export const CompanyName =
 
 export const TeamMap = [
   {
-    name: "Philip Esclamado",
-    position: "Lead Engineer",
-  },
-  {
     name: "Noah Wessels",
     position: "Project Manager",
   },
@@ -164,6 +160,11 @@ export const SponsorMap = [
     title: "University of Victoria",
     link: "https://www.uvic.ca/",
   },
+  {
+    img: "/images/teamgantt.svg",
+    title: "TeamGantt",
+    link: "https://www.teamgantt.com/",
+  },
 ];
 
 export const SponsorMapDark = [
@@ -242,10 +243,14 @@ export const SponsorMapDark = [
     title: "University of Victoria",
     link: "https://www.uvic.ca/",
   },
+  {
+    img: "/images/teamgantt.svg",
+    title: "TeamGantt",
+    link: "https://www.teamgantt.com/",
+  },
 ];
 
 // Each CarouselMap deals with each Carousel collections in pages. Mind name of file extension.
-
 export const CarouselMapProject = [
   { src: "/images/carousel/boat1.jpg" },
   { src: "/images/carousel/boat2.jpg" },
