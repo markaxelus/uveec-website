@@ -20,6 +20,10 @@ export const TeamMap = [
     position: "Electrical Lead",
   },
   {
+    name: "Anthony Cieri",
+    position: "Software Lead",
+  },
+  {
     name: "David Kim",
     position: "Software Lead",
   },
@@ -116,9 +120,19 @@ export const SponsorMap = [
     link: "https://www.fibertek.com/",
   },
   {
+    img: "/images/Lobby_Studios.svg",
+    title: "Lobby",
+    link: "https://www.lobby.so/",
+  },
+  {
     img: "/images/maximumprototyping.png",
     title: "Maximum Prototyping",
     link: "https://maxproto.com/",
+  },
+  {
+    img: "/images/onshape_logo_bright_version.png",
+    title: "Onshape",
+    link: "https://www.onshape.com/en/",
   },
   {
     img: "/images/pcbway.png",
@@ -151,6 +165,11 @@ export const SponsorMap = [
     link: "https://www.solidworks.com/",
   },
   {
+    img: "/images/teamgantt.svg",
+    title: "TeamGantt",
+    link: "https://www.teamgantt.com/",
+  },
+  {
     img: "/images/teck.png",
     title: "Teck",
     link: "https://www.teck.com/",
@@ -159,11 +178,6 @@ export const SponsorMap = [
     img: "/images/uvic.png",
     title: "University of Victoria",
     link: "https://www.uvic.ca/",
-  },
-  {
-    img: "/images/teamgantt.svg",
-    title: "TeamGantt",
-    link: "https://www.teamgantt.com/",
   },
 ];
 
@@ -199,9 +213,19 @@ export const SponsorMapDark = [
     link: "https://www.fibertek.com/",
   },
   {
+    img: "/images/Lobby_Studios_dark.svg",
+    title: "Lobby",
+    link: "https://www.lobby.so/",
+  },
+  {
     img: "/images/maximumprototyping-dark.png",
     title: "Maximum Prototyping",
     link: "https://maxproto.com/",
+  },
+  {
+    img: "/images/onshape_logo_dark.png",
+    title: "Onshape",
+    link: "https://www.onshape.com/en/",
   },
   {
     img: "/images/pcbway-dark.png",
@@ -234,6 +258,11 @@ export const SponsorMapDark = [
     link: "https://www.solidworks.com/",
   },
   {
+    img: "/images/teamgantt.svg",
+    title: "TeamGantt",
+    link: "https://www.teamgantt.com/",
+  },
+  {
     img: "/images/teck-dark.png",
     title: "Teck",
     link: "https://www.teck.com/",
@@ -242,11 +271,6 @@ export const SponsorMapDark = [
     img: "/images/uvic-dark.png",
     title: "University of Victoria",
     link: "https://www.uvic.ca/",
-  },
-  {
-    img: "/images/teamgantt.svg",
-    title: "TeamGantt",
-    link: "https://www.teamgantt.com/",
   },
 ];
 
