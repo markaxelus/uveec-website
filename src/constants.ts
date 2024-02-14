@@ -77,7 +77,7 @@ export const ContactsMap = [
     title: "Discord",
     button: "Join",
     passage: "Join the discussion with other members.",
-    link: "https://uvicenvironment.slack.com",
+    link: "https://discord.gg/zPNQgHSz24",
   },
   {
     img: "/images/contacts/message.png",
