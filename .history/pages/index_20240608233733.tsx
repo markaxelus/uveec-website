@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         <HeroBanner />
         <SponsorMarquee />
         <main>
-          <div className="pt-20 mb-20 space-y-20 overflow-hidden sm:pt-32 sm:mb-32 sm:space-y-32 md:pt-40 md:mb-12 md:space-y-20">
+          <div className="pt-20 mb-20 space-y-20 overflow-hidden sm:pt-32 sm:mb-32 sm:space-y-32 md:pt-40 md:mb-40 md:space-y-20">
             
             <section id="team">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8"> 
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
                   </a>
                 </Link>
               </div>
-              <div className="relative pt-10 xl:pt-0 mt-10 mt-12">
+              <div className="relative pt-10 xl:pt-0 mt-10 xl:mt-2">
                 <div className="absolute h-96 w-full bg-gradient-to-b from-sky-500 via-slate-100 to-white opacity-10 dark:to-slate-900">
                   <svg
                     width="100%"
@@ -239,7 +239,7 @@ const Home: NextPage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="mt-4 -mx-4 sm:mx-0 lg:mt-0 lg:col-span-7 xl:col-span-6 xl:mt-12">
+                  <div className="mt-4 -mx-4 sm:mx-0 lg:mt-0 lg:col-span-7 xl:col-span-6 xl:mt-10">
                     <div className="relative overflow-hidden shadow-xl flex h-[31.625rem] max-h-[60vh] sm:max-h-[none] sm:rounded-xl lg:h-[34.6875rem] xl:h-[31.625rem]">
                       <Image
                         layout="fill"

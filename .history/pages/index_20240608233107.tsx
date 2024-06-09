@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         <HeroBanner />
         <SponsorMarquee />
         <main>
-          <div className="pt-20 mb-20 space-y-20 overflow-hidden sm:pt-32 sm:mb-32 sm:space-y-32 md:pt-40 md:mb-12 md:space-y-20">
+          <div className="pt-20 mb-20 space-y-20 overflow-hidden sm:pt-32 sm:mb-32 sm:space-y-32 md:pt-40 md:mb-40 md:space-y-20">
             
             <section id="team">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8"> 
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
                   </a>
                 </Link>
               </div>
-              <div className="relative pt-10 xl:pt-0 mt-10 mt-12">
+              <div className="relative pt-10 xl:pt-0 mt-10 xl:mt-2">
                 <div className="absolute h-96 w-full bg-gradient-to-b from-sky-500 via-slate-100 to-white opacity-10 dark:to-slate-900">
                   <svg
                     width="100%"
@@ -100,7 +100,7 @@ const Home: NextPage = () => {
                     <rect width="100%" height="100%" fill="url(#grid)" />
                   </svg>
                 </div>
-                <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 md:px-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 md:px-8 lg:grid lg:grid-cols-12 lg:gap-8">
                   {/*<div className="lg:col-span-5 xl:col-span-6 flex flex-col">
                     <div className="relative z-10 bg-white ring-1 ring-slate-900/5 rounded-lg shadow-xl px-6 py-5 my-auto xl:mt-18 dark:bg-slate-800">
                       <div className="absolute inset-x-0 inset-y-5 border-t border-b border-slate-100 pointer-events-none dark:border-slate-700" />
@@ -148,7 +148,7 @@ const Home: NextPage = () => {
             </section>
 
             <section id="awards">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 md:py-8">
                 <p className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50">
                   UVEEC: Where Greatness Unfolds, Beyond the Boundaries of Competition.
                 </p>
@@ -156,7 +156,7 @@ const Home: NextPage = () => {
                   At UVEEC, we believe that greatness isn&apos;t solely defined by competitions and winning titles. While we may not be a traditional competition club, our passion for excellence remains unwavering. Our focus extends beyond the confines of rivalry, as we strive to cultivate an environment where every member can explore their potential, discover new horizons, and achieve personal growth.
                 </p>
               </div>
-              <div className="relative pt-10 xl:pt-0 mt-10 xl:mt-20">
+              <div className="relative pt-10 xl:pt-0 mt-10 xl:mt-2">
                 <div className="absolute h-96 w-full bg-gradient-to-b via-slate-100 from-indigo-500 to-white opacity-10 dark:to-slate-900">
                   <svg
                     width="100%"
@@ -239,7 +239,7 @@ const Home: NextPage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="mt-4 -mx-4 sm:mx-0 lg:mt-0 lg:col-span-7 xl:col-span-6 xl:mt-12">
+                  <div className="mt-4 -mx-4 sm:mx-0 lg:mt-0 lg:col-span-7 xl:col-span-6">
                     <div className="relative overflow-hidden shadow-xl flex h-[31.625rem] max-h-[60vh] sm:max-h-[none] sm:rounded-xl lg:h-[34.6875rem] xl:h-[31.625rem]">
                       <Image
                         layout="fill"

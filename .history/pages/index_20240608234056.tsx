@@ -60,7 +60,7 @@ const Home: NextPage = () => {
                   </a>
                 </Link>
               </div>
-              <div className="relative pt-10 xl:pt-0 mt-10 mt-12">
+              <div className="relative pt-10 xl:pt-0 mt-10 xl:mt-2">
                 <div className="absolute h-96 w-full bg-gradient-to-b from-sky-500 via-slate-100 to-white opacity-10 dark:to-slate-900">
                   <svg
                     width="100%"
