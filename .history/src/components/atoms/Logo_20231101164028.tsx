@@ -16,7 +16,7 @@ export const Logo = ({ src, className, classNameImage }: BaseLogoProps) => {
     <div className={classNames(className, "relative")}>
       <Image
         layout="fill"
-        src={`${src}`}
+        src={`/images/${src}`}
         alt={""}
         decoding="async"
         className={classNameImage}
