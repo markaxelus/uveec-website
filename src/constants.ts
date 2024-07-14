@@ -280,3 +280,8 @@ export const CarouselMapProject = [
   { src: "/images/carousel/boat2.jpg" },
   { src: "/images/carousel/boat3.jpg" },
 ];
+
+export const CarouselGliderProject = [
+  { src: "/images/glidercarousel/glider.png"},
+  { src: "/images/glidercarousel/unnamed.jpg"}
+]
