@@ -283,5 +283,7 @@ export const CarouselMapProject = [
 
 export const CarouselGliderProject = [
   { src: "/images/glidercarousel/glider.png"},
-  { src: "/images/glidercarousel/unnamed.jpg"}
+  { src: "/images/glidercarousel/unnamed.jpg"},
+  { src: "/images/glidercarousel/class.jpg"},
+
 ]
